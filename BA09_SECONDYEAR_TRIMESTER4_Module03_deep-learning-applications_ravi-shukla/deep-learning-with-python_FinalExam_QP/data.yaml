@@ -1,0 +1,5 @@
+train: /kaggle/input/macaws-dataset/train/images
+val: /kaggle/input/macaws-dataset/valid/images
+
+nc: 1
+names: ['blue-macaw']
