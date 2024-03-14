@@ -1,0 +1,1185 @@
+{
+  "id" : "32afbdf0-3c5f-11eb-8b8a-43f5000567e8-2",
+  "name" : "BLU",
+  "createdDate" : 0,
+  "version" : 3,
+  "text" : "Considering that this is not an expensive phone with some ridiculous specs, this phone does everything it says it will do. The material is not the best but it comes with a case that you can use to add some protection just in case the phone is dropped.I think the picture quality is decent considering the price of the phone.Overall, if you are on a budget and looking for a phone capable of all the functions of some of the industry leaders (Galaxy S series), this is definitely a good buy.NOTE: I purchased the Global GSM version to use outside the United states. This version is not made for use in the United States. Based on what I've read, if you use the Global GSM version in the United States, you might experience slow data speeds.",
+  "docLength" : 0,
+  "language" : "EN",
+  "status" : "SUBMITTED",
+  "modifiedDate" : 1607790540308,
+  "documentSet" : [ ],
+  "preannotation" : [ ],
+  "sentences" : [ {
+    "id" : "s0",
+    "begin" : 0,
+    "end" : 122,
+    "text" : "Considering that this is not an expensive phone with some ridiculous specs, this phone does everything it says it will do.",
+    "tokens" : [ {
+      "id" : "s0-t0",
+      "begin" : 0,
+      "end" : 11,
+      "text" : "Considering",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t1",
+      "begin" : 12,
+      "end" : 16,
+      "text" : "that",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t2",
+      "begin" : 17,
+      "end" : 21,
+      "text" : "this",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t3",
+      "begin" : 22,
+      "end" : 24,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t4",
+      "begin" : 25,
+      "end" : 28,
+      "text" : "not",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t5",
+      "begin" : 29,
+      "end" : 31,
+      "text" : "an",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t6",
+      "begin" : 32,
+      "end" : 41,
+      "text" : "expensive",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t7",
+      "begin" : 42,
+      "end" : 47,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t8",
+      "begin" : 48,
+      "end" : 52,
+      "text" : "with",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t9",
+      "begin" : 53,
+      "end" : 57,
+      "text" : "some",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t10",
+      "begin" : 58,
+      "end" : 68,
+      "text" : "ridiculous",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t11",
+      "begin" : 69,
+      "end" : 74,
+      "text" : "specs",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t12",
+      "begin" : 74,
+      "end" : 75,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t13",
+      "begin" : 76,
+      "end" : 80,
+      "text" : "this",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t14",
+      "begin" : 81,
+      "end" : 86,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t15",
+      "begin" : 87,
+      "end" : 91,
+      "text" : "does",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t16",
+      "begin" : 92,
+      "end" : 102,
+      "text" : "everything",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t17",
+      "begin" : 103,
+      "end" : 105,
+      "text" : "it",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t18",
+      "begin" : 106,
+      "end" : 110,
+      "text" : "says",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t19",
+      "begin" : 111,
+      "end" : 113,
+      "text" : "it",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t20",
+      "begin" : 114,
+      "end" : 118,
+      "text" : "will",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t21",
+      "begin" : 119,
+      "end" : 121,
+      "text" : "do",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t22",
+      "begin" : 121,
+      "end" : 122,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s1",
+    "begin" : 123,
+    "end" : 564,
+    "text" : "The material is not the best but it comes with a case that you can use to add some protection just in case the phone is dropped.I think the picture quality is decent considering the price of the phone.Overall, if you are on a budget and looking for a phone capable of all the functions of some of the industry leaders (Galaxy S series), this is definitely a good buy.NOTE: I purchased the Global GSM version to use outside the United states.",
+    "tokens" : [ {
+      "id" : "s1-t0",
+      "begin" : 123,
+      "end" : 126,
+      "text" : "The",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t1",
+      "begin" : 127,
+      "end" : 135,
+      "text" : "material",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t2",
+      "begin" : 136,
+      "end" : 138,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t3",
+      "begin" : 139,
+      "end" : 142,
+      "text" : "not",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t4",
+      "begin" : 143,
+      "end" : 146,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t5",
+      "begin" : 147,
+      "end" : 151,
+      "text" : "best",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t6",
+      "begin" : 152,
+      "end" : 155,
+      "text" : "but",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t7",
+      "begin" : 156,
+      "end" : 158,
+      "text" : "it",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t8",
+      "begin" : 159,
+      "end" : 164,
+      "text" : "comes",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t9",
+      "begin" : 165,
+      "end" : 169,
+      "text" : "with",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t10",
+      "begin" : 170,
+      "end" : 171,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t11",
+      "begin" : 172,
+      "end" : 176,
+      "text" : "case",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t12",
+      "begin" : 177,
+      "end" : 181,
+      "text" : "that",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t13",
+      "begin" : 182,
+      "end" : 185,
+      "text" : "you",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t14",
+      "begin" : 186,
+      "end" : 189,
+      "text" : "can",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t15",
+      "begin" : 190,
+      "end" : 193,
+      "text" : "use",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t16",
+      "begin" : 194,
+      "end" : 196,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t17",
+      "begin" : 197,
+      "end" : 200,
+      "text" : "add",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t18",
+      "begin" : 201,
+      "end" : 205,
+      "text" : "some",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t19",
+      "begin" : 206,
+      "end" : 216,
+      "text" : "protection",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t20",
+      "begin" : 217,
+      "end" : 221,
+      "text" : "just",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t21",
+      "begin" : 222,
+      "end" : 224,
+      "text" : "in",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t22",
+      "begin" : 225,
+      "end" : 229,
+      "text" : "case",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t23",
+      "begin" : 230,
+      "end" : 233,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t24",
+      "begin" : 234,
+      "end" : 239,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t25",
+      "begin" : 240,
+      "end" : 242,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t26",
+      "begin" : 243,
+      "end" : 252,
+      "text" : "dropped.I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t27",
+      "begin" : 253,
+      "end" : 258,
+      "text" : "think",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t28",
+      "begin" : 259,
+      "end" : 262,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t29",
+      "begin" : 263,
+      "end" : 270,
+      "text" : "picture",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t30",
+      "begin" : 271,
+      "end" : 278,
+      "text" : "quality",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t31",
+      "begin" : 279,
+      "end" : 281,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t32",
+      "begin" : 282,
+      "end" : 288,
+      "text" : "decent",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t33",
+      "begin" : 289,
+      "end" : 300,
+      "text" : "considering",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t34",
+      "begin" : 301,
+      "end" : 304,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t35",
+      "begin" : 305,
+      "end" : 310,
+      "text" : "price",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t36",
+      "begin" : 311,
+      "end" : 313,
+      "text" : "of",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t37",
+      "begin" : 314,
+      "end" : 317,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t38",
+      "begin" : 318,
+      "end" : 331,
+      "text" : "phone.Overall",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t39",
+      "begin" : 331,
+      "end" : 332,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t40",
+      "begin" : 333,
+      "end" : 335,
+      "text" : "if",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t41",
+      "begin" : 336,
+      "end" : 339,
+      "text" : "you",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t42",
+      "begin" : 340,
+      "end" : 343,
+      "text" : "are",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t43",
+      "begin" : 344,
+      "end" : 346,
+      "text" : "on",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t44",
+      "begin" : 347,
+      "end" : 348,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t45",
+      "begin" : 349,
+      "end" : 355,
+      "text" : "budget",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t46",
+      "begin" : 356,
+      "end" : 359,
+      "text" : "and",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t47",
+      "begin" : 360,
+      "end" : 367,
+      "text" : "looking",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t48",
+      "begin" : 368,
+      "end" : 371,
+      "text" : "for",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t49",
+      "begin" : 372,
+      "end" : 373,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t50",
+      "begin" : 374,
+      "end" : 379,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t51",
+      "begin" : 380,
+      "end" : 387,
+      "text" : "capable",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t52",
+      "begin" : 388,
+      "end" : 390,
+      "text" : "of",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t53",
+      "begin" : 391,
+      "end" : 394,
+      "text" : "all",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t54",
+      "begin" : 395,
+      "end" : 398,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t55",
+      "begin" : 399,
+      "end" : 408,
+      "text" : "functions",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t56",
+      "begin" : 409,
+      "end" : 411,
+      "text" : "of",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t57",
+      "begin" : 412,
+      "end" : 416,
+      "text" : "some",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t58",
+      "begin" : 417,
+      "end" : 419,
+      "text" : "of",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t59",
+      "begin" : 420,
+      "end" : 423,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t60",
+      "begin" : 424,
+      "end" : 432,
+      "text" : "industry",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t61",
+      "begin" : 433,
+      "end" : 440,
+      "text" : "leaders",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t62",
+      "begin" : 441,
+      "end" : 442,
+      "text" : "(",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t63",
+      "begin" : 442,
+      "end" : 448,
+      "text" : "Galaxy",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t64",
+      "begin" : 449,
+      "end" : 450,
+      "text" : "S",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t65",
+      "begin" : 451,
+      "end" : 457,
+      "text" : "series",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t66",
+      "begin" : 457,
+      "end" : 458,
+      "text" : ")",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t67",
+      "begin" : 458,
+      "end" : 459,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t68",
+      "begin" : 460,
+      "end" : 464,
+      "text" : "this",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t69",
+      "begin" : 465,
+      "end" : 467,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t70",
+      "begin" : 468,
+      "end" : 478,
+      "text" : "definitely",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t71",
+      "begin" : 479,
+      "end" : 480,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t72",
+      "begin" : 481,
+      "end" : 485,
+      "text" : "good",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t73",
+      "begin" : 486,
+      "end" : 494,
+      "text" : "buy.NOTE",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t74",
+      "begin" : 494,
+      "end" : 495,
+      "text" : ":",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t75",
+      "begin" : 496,
+      "end" : 497,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t76",
+      "begin" : 498,
+      "end" : 507,
+      "text" : "purchased",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t77",
+      "begin" : 508,
+      "end" : 511,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t78",
+      "begin" : 512,
+      "end" : 518,
+      "text" : "Global",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t79",
+      "begin" : 519,
+      "end" : 522,
+      "text" : "GSM",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t80",
+      "begin" : 523,
+      "end" : 530,
+      "text" : "version",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t81",
+      "begin" : 531,
+      "end" : 533,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t82",
+      "begin" : 534,
+      "end" : 537,
+      "text" : "use",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t83",
+      "begin" : 538,
+      "end" : 545,
+      "text" : "outside",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t84",
+      "begin" : 546,
+      "end" : 549,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t85",
+      "begin" : 550,
+      "end" : 556,
+      "text" : "United",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t86",
+      "begin" : 557,
+      "end" : 563,
+      "text" : "states",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t87",
+      "begin" : 563,
+      "end" : 564,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s2",
+    "begin" : 565,
+    "end" : 619,
+    "text" : "This version is not made for use in the United States.",
+    "tokens" : [ {
+      "id" : "s2-t0",
+      "begin" : 565,
+      "end" : 569,
+      "text" : "This",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t1",
+      "begin" : 570,
+      "end" : 577,
+      "text" : "version",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t2",
+      "begin" : 578,
+      "end" : 580,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t3",
+      "begin" : 581,
+      "end" : 584,
+      "text" : "not",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t4",
+      "begin" : 585,
+      "end" : 589,
+      "text" : "made",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t5",
+      "begin" : 590,
+      "end" : 593,
+      "text" : "for",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t6",
+      "begin" : 594,
+      "end" : 597,
+      "text" : "use",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t7",
+      "begin" : 598,
+      "end" : 600,
+      "text" : "in",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t8",
+      "begin" : 601,
+      "end" : 604,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t9",
+      "begin" : 605,
+      "end" : 611,
+      "text" : "United",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t10",
+      "begin" : 612,
+      "end" : 618,
+      "text" : "States",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t11",
+      "begin" : 618,
+      "end" : 619,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s3",
+    "begin" : 620,
+    "end" : 739,
+    "text" : "Based on what I've read, if you use the Global GSM version in the United States, you might experience slow data speeds.",
+    "tokens" : [ {
+      "id" : "s3-t0",
+      "begin" : 620,
+      "end" : 625,
+      "text" : "Based",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t1",
+      "begin" : 626,
+      "end" : 628,
+      "text" : "on",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t2",
+      "begin" : 629,
+      "end" : 633,
+      "text" : "what",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t3",
+      "begin" : 634,
+      "end" : 635,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t4",
+      "begin" : 635,
+      "end" : 638,
+      "text" : "'ve",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t5",
+      "begin" : 639,
+      "end" : 643,
+      "text" : "read",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t6",
+      "begin" : 643,
+      "end" : 644,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t7",
+      "begin" : 645,
+      "end" : 647,
+      "text" : "if",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t8",
+      "begin" : 648,
+      "end" : 651,
+      "text" : "you",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t9",
+      "begin" : 652,
+      "end" : 655,
+      "text" : "use",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t10",
+      "begin" : 656,
+      "end" : 659,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t11",
+      "begin" : 660,
+      "end" : 666,
+      "text" : "Global",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t12",
+      "begin" : 667,
+      "end" : 670,
+      "text" : "GSM",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t13",
+      "begin" : 671,
+      "end" : 678,
+      "text" : "version",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t14",
+      "begin" : 679,
+      "end" : 681,
+      "text" : "in",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t15",
+      "begin" : 682,
+      "end" : 685,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t16",
+      "begin" : 686,
+      "end" : 692,
+      "text" : "United",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t17",
+      "begin" : 693,
+      "end" : 699,
+      "text" : "States",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t18",
+      "begin" : 699,
+      "end" : 700,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t19",
+      "begin" : 701,
+      "end" : 704,
+      "text" : "you",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t20",
+      "begin" : 705,
+      "end" : 710,
+      "text" : "might",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t21",
+      "begin" : 711,
+      "end" : 721,
+      "text" : "experience",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t22",
+      "begin" : 722,
+      "end" : 726,
+      "text" : "slow",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t23",
+      "begin" : 727,
+      "end" : 731,
+      "text" : "data",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t24",
+      "begin" : 732,
+      "end" : 738,
+      "text" : "speeds",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t25",
+      "begin" : 738,
+      "end" : 739,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  } ],
+  "mentions" : [ {
+    "id" : "s0-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 17,
+    "end" : 21,
+    "inCoref" : true
+  }, {
+    "id" : "s0-m2",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 42,
+    "end" : 47,
+    "inCoref" : true
+  }, {
+    "id" : "s0-m3",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 69,
+    "end" : 74,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m4",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 76,
+    "end" : 86,
+    "inCoref" : true
+  }, {
+    "id" : "s0-m5",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 103,
+    "end" : 105,
+    "inCoref" : true
+  }, {
+    "id" : "s0-m6",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 111,
+    "end" : 113,
+    "inCoref" : true
+  }, {
+    "id" : "s1-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 126,
+    "end" : 135,
+    "inCoref" : false
+  }, {
+    "id" : "s1-m2",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 156,
+    "end" : 158,
+    "inCoref" : true
+  }, {
+    "id" : "s1-m3",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 172,
+    "end" : 176,
+    "inCoref" : false
+  }, {
+    "id" : "s1-m4",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 234,
+    "end" : 239,
+    "inCoref" : true
+  }, {
+    "id" : "s1-m5",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 263,
+    "end" : 278,
+    "inCoref" : false
+  }, {
+    "id" : "s1-m6",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 318,
+    "end" : 323,
+    "inCoref" : true
+  }, {
+    "id" : "s1-m7",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 374,
+    "end" : 379,
+    "inCoref" : true
+  }, {
+    "id" : "s1-m11",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 391,
+    "end" : 408,
+    "inCoref" : false
+  }, {
+    "id" : "s1-m12",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 424,
+    "end" : 440,
+    "inCoref" : false
+  }, {
+    "id" : "s1-m8",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Model",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Model",
+    "begin" : 442,
+    "end" : 457,
+    "inCoref" : false
+  }, {
+    "id" : "s1-m9",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 460,
+    "end" : 464,
+    "inCoref" : false
+  }, {
+    "id" : "s1-m10",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Model",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Model",
+    "begin" : 512,
+    "end" : 530,
+    "inCoref" : true
+  }, {
+    "id" : "s2-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Model",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Model",
+    "begin" : 565,
+    "end" : 577,
+    "inCoref" : true
+  }, {
+    "id" : "s3-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Model",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Model",
+    "begin" : 660,
+    "end" : 678,
+    "inCoref" : true
+  } ],
+  "relations" : [ ],
+  "corefs" : [ {
+    "id" : "c1",
+    "properties" : { },
+    "mentions" : [ "s0-m1", "s0-m2", "s0-m4", "s0-m5", "s0-m6", "s1-m2", "s1-m4", "s1-m6", "s1-m7" ]
+  }, {
+    "id" : "c2",
+    "properties" : { },
+    "mentions" : [ "s1-m10", "s2-m1", "s3-m1" ]
+  } ],
+  "typeResolved" : true,
+  "userResolved" : false
+}

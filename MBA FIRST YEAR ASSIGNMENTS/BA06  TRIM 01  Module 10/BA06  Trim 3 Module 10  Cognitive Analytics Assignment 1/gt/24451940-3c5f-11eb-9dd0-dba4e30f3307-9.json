@@ -1,0 +1,2032 @@
+{
+  "id" : "24451940-3c5f-11eb-9dd0-dba4e30f3307-9",
+  "name" : "BLU",
+  "createdDate" : 0,
+  "version" : 3,
+  "text" : "This affordable smart phone really surprised me. The software is a little generic, but it does what you expect from a unlocked device. I would recommend. Iwouldnt recommended rooting this phone unless you truely know what ur doing. Once rooted don't do the wireless update. Like I did even after reading forum that advised against it. I soft bricked my phone. Which caused it to get stuct on a bootloader loop. Eg. Stuck on phone logo. Their are a lot of good tools on the net to reverse this problem if you understand the concepts. Unlike me I don't really understand the rooting process. Just wanted to be able to get browser apk to install. But anyways if you do get stuck on bootloader loop.... Visit needrom.com their is all the tools and info to turn ur dead droid into a zombie droid. Also you will have to create a free account to be able to DL ROMs and tools to flash your phone. Also check fourms @ android area51 and don't forget your friends @ xda a lot of good info. I hope this helps someone cause finding info on this phone is few and far between. But I enjoy this phone. And theirs really no need to root this phone. Like I said I wanted the old web browser. But its not worth soft bricking to get it",
+  "docLength" : 0,
+  "language" : "EN",
+  "status" : "SUBMITTED",
+  "modifiedDate" : 1607766489301,
+  "documentSet" : [ ],
+  "preannotation" : [ ],
+  "sentences" : [ {
+    "id" : "s0",
+    "begin" : 0,
+    "end" : 48,
+    "text" : "This affordable smart phone really surprised me.",
+    "tokens" : [ {
+      "id" : "s0-t0",
+      "begin" : 0,
+      "end" : 4,
+      "text" : "This",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t1",
+      "begin" : 5,
+      "end" : 15,
+      "text" : "affordable",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t2",
+      "begin" : 16,
+      "end" : 21,
+      "text" : "smart",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t3",
+      "begin" : 22,
+      "end" : 27,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t4",
+      "begin" : 28,
+      "end" : 34,
+      "text" : "really",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t5",
+      "begin" : 35,
+      "end" : 44,
+      "text" : "surprised",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t6",
+      "begin" : 45,
+      "end" : 47,
+      "text" : "me",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t7",
+      "begin" : 47,
+      "end" : 48,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s1",
+    "begin" : 49,
+    "end" : 134,
+    "text" : "The software is a little generic, but it does what you expect from a unlocked device.",
+    "tokens" : [ {
+      "id" : "s1-t0",
+      "begin" : 49,
+      "end" : 52,
+      "text" : "The",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t1",
+      "begin" : 53,
+      "end" : 61,
+      "text" : "software",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t2",
+      "begin" : 62,
+      "end" : 64,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t3",
+      "begin" : 65,
+      "end" : 66,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t4",
+      "begin" : 67,
+      "end" : 73,
+      "text" : "little",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t5",
+      "begin" : 74,
+      "end" : 81,
+      "text" : "generic",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t6",
+      "begin" : 81,
+      "end" : 82,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t7",
+      "begin" : 83,
+      "end" : 86,
+      "text" : "but",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t8",
+      "begin" : 87,
+      "end" : 89,
+      "text" : "it",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t9",
+      "begin" : 90,
+      "end" : 94,
+      "text" : "does",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t10",
+      "begin" : 95,
+      "end" : 99,
+      "text" : "what",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t11",
+      "begin" : 100,
+      "end" : 103,
+      "text" : "you",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t12",
+      "begin" : 104,
+      "end" : 110,
+      "text" : "expect",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t13",
+      "begin" : 111,
+      "end" : 115,
+      "text" : "from",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t14",
+      "begin" : 116,
+      "end" : 117,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t15",
+      "begin" : 118,
+      "end" : 126,
+      "text" : "unlocked",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t16",
+      "begin" : 127,
+      "end" : 133,
+      "text" : "device",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t17",
+      "begin" : 133,
+      "end" : 134,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s2",
+    "begin" : 135,
+    "end" : 153,
+    "text" : "I would recommend.",
+    "tokens" : [ {
+      "id" : "s2-t0",
+      "begin" : 135,
+      "end" : 136,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t1",
+      "begin" : 137,
+      "end" : 142,
+      "text" : "would",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t2",
+      "begin" : 143,
+      "end" : 152,
+      "text" : "recommend",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t3",
+      "begin" : 152,
+      "end" : 153,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s3",
+    "begin" : 154,
+    "end" : 231,
+    "text" : "Iwouldnt recommended rooting this phone unless you truely know what ur doing.",
+    "tokens" : [ {
+      "id" : "s3-t0",
+      "begin" : 154,
+      "end" : 162,
+      "text" : "Iwouldnt",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t1",
+      "begin" : 163,
+      "end" : 174,
+      "text" : "recommended",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t2",
+      "begin" : 175,
+      "end" : 182,
+      "text" : "rooting",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t3",
+      "begin" : 183,
+      "end" : 187,
+      "text" : "this",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t4",
+      "begin" : 188,
+      "end" : 193,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t5",
+      "begin" : 194,
+      "end" : 200,
+      "text" : "unless",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t6",
+      "begin" : 201,
+      "end" : 204,
+      "text" : "you",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t7",
+      "begin" : 205,
+      "end" : 211,
+      "text" : "truely",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t8",
+      "begin" : 212,
+      "end" : 216,
+      "text" : "know",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t9",
+      "begin" : 217,
+      "end" : 221,
+      "text" : "what",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t10",
+      "begin" : 222,
+      "end" : 224,
+      "text" : "ur",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t11",
+      "begin" : 225,
+      "end" : 230,
+      "text" : "doing",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t12",
+      "begin" : 230,
+      "end" : 231,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s4",
+    "begin" : 232,
+    "end" : 273,
+    "text" : "Once rooted don't do the wireless update.",
+    "tokens" : [ {
+      "id" : "s4-t0",
+      "begin" : 232,
+      "end" : 236,
+      "text" : "Once",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t1",
+      "begin" : 237,
+      "end" : 243,
+      "text" : "rooted",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t2",
+      "begin" : 244,
+      "end" : 246,
+      "text" : "do",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t3",
+      "begin" : 246,
+      "end" : 249,
+      "text" : "n't",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t4",
+      "begin" : 250,
+      "end" : 252,
+      "text" : "do",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t5",
+      "begin" : 253,
+      "end" : 256,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t6",
+      "begin" : 257,
+      "end" : 265,
+      "text" : "wireless",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t7",
+      "begin" : 266,
+      "end" : 272,
+      "text" : "update",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t8",
+      "begin" : 272,
+      "end" : 273,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s5",
+    "begin" : 274,
+    "end" : 334,
+    "text" : "Like I did even after reading forum that advised against it.",
+    "tokens" : [ {
+      "id" : "s5-t0",
+      "begin" : 274,
+      "end" : 278,
+      "text" : "Like",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t1",
+      "begin" : 279,
+      "end" : 280,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t2",
+      "begin" : 281,
+      "end" : 284,
+      "text" : "did",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t3",
+      "begin" : 285,
+      "end" : 289,
+      "text" : "even",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t4",
+      "begin" : 290,
+      "end" : 295,
+      "text" : "after",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t5",
+      "begin" : 296,
+      "end" : 303,
+      "text" : "reading",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t6",
+      "begin" : 304,
+      "end" : 309,
+      "text" : "forum",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t7",
+      "begin" : 310,
+      "end" : 314,
+      "text" : "that",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t8",
+      "begin" : 315,
+      "end" : 322,
+      "text" : "advised",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t9",
+      "begin" : 323,
+      "end" : 330,
+      "text" : "against",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t10",
+      "begin" : 331,
+      "end" : 333,
+      "text" : "it",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t11",
+      "begin" : 333,
+      "end" : 334,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s6",
+    "begin" : 335,
+    "end" : 359,
+    "text" : "I soft bricked my phone.",
+    "tokens" : [ {
+      "id" : "s6-t0",
+      "begin" : 335,
+      "end" : 336,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t1",
+      "begin" : 337,
+      "end" : 341,
+      "text" : "soft",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t2",
+      "begin" : 342,
+      "end" : 349,
+      "text" : "bricked",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t3",
+      "begin" : 350,
+      "end" : 352,
+      "text" : "my",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t4",
+      "begin" : 353,
+      "end" : 358,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t5",
+      "begin" : 358,
+      "end" : 359,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s7",
+    "begin" : 360,
+    "end" : 410,
+    "text" : "Which caused it to get stuct on a bootloader loop.",
+    "tokens" : [ {
+      "id" : "s7-t0",
+      "begin" : 360,
+      "end" : 365,
+      "text" : "Which",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t1",
+      "begin" : 366,
+      "end" : 372,
+      "text" : "caused",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t2",
+      "begin" : 373,
+      "end" : 375,
+      "text" : "it",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t3",
+      "begin" : 376,
+      "end" : 378,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t4",
+      "begin" : 379,
+      "end" : 382,
+      "text" : "get",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t5",
+      "begin" : 383,
+      "end" : 388,
+      "text" : "stuct",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t6",
+      "begin" : 389,
+      "end" : 391,
+      "text" : "on",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t7",
+      "begin" : 392,
+      "end" : 393,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t8",
+      "begin" : 394,
+      "end" : 404,
+      "text" : "bootloader",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t9",
+      "begin" : 405,
+      "end" : 409,
+      "text" : "loop",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t10",
+      "begin" : 409,
+      "end" : 410,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s8",
+    "begin" : 411,
+    "end" : 414,
+    "text" : "Eg.",
+    "tokens" : [ {
+      "id" : "s8-t0",
+      "begin" : 411,
+      "end" : 413,
+      "text" : "Eg",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t1",
+      "begin" : 413,
+      "end" : 414,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s9",
+    "begin" : 415,
+    "end" : 435,
+    "text" : "Stuck on phone logo.",
+    "tokens" : [ {
+      "id" : "s9-t0",
+      "begin" : 415,
+      "end" : 420,
+      "text" : "Stuck",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t1",
+      "begin" : 421,
+      "end" : 423,
+      "text" : "on",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t2",
+      "begin" : 424,
+      "end" : 429,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t3",
+      "begin" : 430,
+      "end" : 434,
+      "text" : "logo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t4",
+      "begin" : 434,
+      "end" : 435,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s10",
+    "begin" : 436,
+    "end" : 532,
+    "text" : "Their are a lot of good tools on the net to reverse this problem if you understand the concepts.",
+    "tokens" : [ {
+      "id" : "s10-t0",
+      "begin" : 436,
+      "end" : 441,
+      "text" : "Their",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t1",
+      "begin" : 442,
+      "end" : 445,
+      "text" : "are",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t2",
+      "begin" : 446,
+      "end" : 447,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t3",
+      "begin" : 448,
+      "end" : 451,
+      "text" : "lot",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t4",
+      "begin" : 452,
+      "end" : 454,
+      "text" : "of",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t5",
+      "begin" : 455,
+      "end" : 459,
+      "text" : "good",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t6",
+      "begin" : 460,
+      "end" : 465,
+      "text" : "tools",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t7",
+      "begin" : 466,
+      "end" : 468,
+      "text" : "on",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t8",
+      "begin" : 469,
+      "end" : 472,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t9",
+      "begin" : 473,
+      "end" : 476,
+      "text" : "net",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t10",
+      "begin" : 477,
+      "end" : 479,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t11",
+      "begin" : 480,
+      "end" : 487,
+      "text" : "reverse",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t12",
+      "begin" : 488,
+      "end" : 492,
+      "text" : "this",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t13",
+      "begin" : 493,
+      "end" : 500,
+      "text" : "problem",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t14",
+      "begin" : 501,
+      "end" : 503,
+      "text" : "if",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t15",
+      "begin" : 504,
+      "end" : 507,
+      "text" : "you",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t16",
+      "begin" : 508,
+      "end" : 518,
+      "text" : "understand",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t17",
+      "begin" : 519,
+      "end" : 522,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t18",
+      "begin" : 523,
+      "end" : 531,
+      "text" : "concepts",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t19",
+      "begin" : 531,
+      "end" : 532,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s11",
+    "begin" : 533,
+    "end" : 589,
+    "text" : "Unlike me I don't really understand the rooting process.",
+    "tokens" : [ {
+      "id" : "s11-t0",
+      "begin" : 533,
+      "end" : 539,
+      "text" : "Unlike",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t1",
+      "begin" : 540,
+      "end" : 542,
+      "text" : "me",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t2",
+      "begin" : 543,
+      "end" : 544,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t3",
+      "begin" : 545,
+      "end" : 547,
+      "text" : "do",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t4",
+      "begin" : 547,
+      "end" : 550,
+      "text" : "n't",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t5",
+      "begin" : 551,
+      "end" : 557,
+      "text" : "really",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t6",
+      "begin" : 558,
+      "end" : 568,
+      "text" : "understand",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t7",
+      "begin" : 569,
+      "end" : 572,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t8",
+      "begin" : 573,
+      "end" : 580,
+      "text" : "rooting",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t9",
+      "begin" : 581,
+      "end" : 588,
+      "text" : "process",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t10",
+      "begin" : 588,
+      "end" : 589,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s12",
+    "begin" : 590,
+    "end" : 643,
+    "text" : "Just wanted to be able to get browser apk to install.",
+    "tokens" : [ {
+      "id" : "s12-t0",
+      "begin" : 590,
+      "end" : 594,
+      "text" : "Just",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t1",
+      "begin" : 595,
+      "end" : 601,
+      "text" : "wanted",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t2",
+      "begin" : 602,
+      "end" : 604,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t3",
+      "begin" : 605,
+      "end" : 607,
+      "text" : "be",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t4",
+      "begin" : 608,
+      "end" : 612,
+      "text" : "able",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t5",
+      "begin" : 613,
+      "end" : 615,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t6",
+      "begin" : 616,
+      "end" : 619,
+      "text" : "get",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t7",
+      "begin" : 620,
+      "end" : 627,
+      "text" : "browser",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t8",
+      "begin" : 628,
+      "end" : 631,
+      "text" : "apk",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t9",
+      "begin" : 632,
+      "end" : 634,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t10",
+      "begin" : 635,
+      "end" : 642,
+      "text" : "install",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t11",
+      "begin" : 642,
+      "end" : 643,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s13",
+    "begin" : 644,
+    "end" : 791,
+    "text" : "But anyways if you do get stuck on bootloader loop.... Visit needrom.com their is all the tools and info to turn ur dead droid into a zombie droid.",
+    "tokens" : [ {
+      "id" : "s13-t0",
+      "begin" : 644,
+      "end" : 647,
+      "text" : "But",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t1",
+      "begin" : 648,
+      "end" : 655,
+      "text" : "anyways",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t2",
+      "begin" : 656,
+      "end" : 658,
+      "text" : "if",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t3",
+      "begin" : 659,
+      "end" : 662,
+      "text" : "you",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t4",
+      "begin" : 663,
+      "end" : 665,
+      "text" : "do",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t5",
+      "begin" : 666,
+      "end" : 669,
+      "text" : "get",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t6",
+      "begin" : 670,
+      "end" : 675,
+      "text" : "stuck",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t7",
+      "begin" : 676,
+      "end" : 678,
+      "text" : "on",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t8",
+      "begin" : 679,
+      "end" : 689,
+      "text" : "bootloader",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t9",
+      "begin" : 690,
+      "end" : 694,
+      "text" : "loop",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t10",
+      "begin" : 694,
+      "end" : 698,
+      "text" : "....",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t11",
+      "begin" : 699,
+      "end" : 704,
+      "text" : "Visit",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t12",
+      "begin" : 705,
+      "end" : 716,
+      "text" : "needrom.com",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t13",
+      "begin" : 717,
+      "end" : 722,
+      "text" : "their",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t14",
+      "begin" : 723,
+      "end" : 725,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t15",
+      "begin" : 726,
+      "end" : 729,
+      "text" : "all",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t16",
+      "begin" : 730,
+      "end" : 733,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t17",
+      "begin" : 734,
+      "end" : 739,
+      "text" : "tools",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t18",
+      "begin" : 740,
+      "end" : 743,
+      "text" : "and",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t19",
+      "begin" : 744,
+      "end" : 748,
+      "text" : "info",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t20",
+      "begin" : 749,
+      "end" : 751,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t21",
+      "begin" : 752,
+      "end" : 756,
+      "text" : "turn",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t22",
+      "begin" : 757,
+      "end" : 759,
+      "text" : "ur",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t23",
+      "begin" : 760,
+      "end" : 764,
+      "text" : "dead",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t24",
+      "begin" : 765,
+      "end" : 770,
+      "text" : "droid",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t25",
+      "begin" : 771,
+      "end" : 775,
+      "text" : "into",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t26",
+      "begin" : 776,
+      "end" : 777,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t27",
+      "begin" : 778,
+      "end" : 784,
+      "text" : "zombie",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t28",
+      "begin" : 785,
+      "end" : 790,
+      "text" : "droid",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t29",
+      "begin" : 790,
+      "end" : 791,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s14",
+    "begin" : 792,
+    "end" : 888,
+    "text" : "Also you will have to create a free account to be able to DL ROMs and tools to flash your phone.",
+    "tokens" : [ {
+      "id" : "s14-t0",
+      "begin" : 792,
+      "end" : 796,
+      "text" : "Also",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t1",
+      "begin" : 797,
+      "end" : 800,
+      "text" : "you",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t2",
+      "begin" : 801,
+      "end" : 805,
+      "text" : "will",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t3",
+      "begin" : 806,
+      "end" : 810,
+      "text" : "have",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t4",
+      "begin" : 811,
+      "end" : 813,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t5",
+      "begin" : 814,
+      "end" : 820,
+      "text" : "create",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t6",
+      "begin" : 821,
+      "end" : 822,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t7",
+      "begin" : 823,
+      "end" : 827,
+      "text" : "free",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t8",
+      "begin" : 828,
+      "end" : 835,
+      "text" : "account",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t9",
+      "begin" : 836,
+      "end" : 838,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t10",
+      "begin" : 839,
+      "end" : 841,
+      "text" : "be",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t11",
+      "begin" : 842,
+      "end" : 846,
+      "text" : "able",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t12",
+      "begin" : 847,
+      "end" : 849,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t13",
+      "begin" : 850,
+      "end" : 852,
+      "text" : "DL",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t14",
+      "begin" : 853,
+      "end" : 857,
+      "text" : "ROMs",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t15",
+      "begin" : 858,
+      "end" : 861,
+      "text" : "and",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t16",
+      "begin" : 862,
+      "end" : 867,
+      "text" : "tools",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t17",
+      "begin" : 868,
+      "end" : 870,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t18",
+      "begin" : 871,
+      "end" : 876,
+      "text" : "flash",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t19",
+      "begin" : 877,
+      "end" : 881,
+      "text" : "your",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t20",
+      "begin" : 882,
+      "end" : 887,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t21",
+      "begin" : 887,
+      "end" : 888,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s15",
+    "begin" : 889,
+    "end" : 979,
+    "text" : "Also check fourms @ android area51 and don't forget your friends @ xda a lot of good info.",
+    "tokens" : [ {
+      "id" : "s15-t0",
+      "begin" : 889,
+      "end" : 893,
+      "text" : "Also",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t1",
+      "begin" : 894,
+      "end" : 899,
+      "text" : "check",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t2",
+      "begin" : 900,
+      "end" : 906,
+      "text" : "fourms",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t3",
+      "begin" : 907,
+      "end" : 908,
+      "text" : "@",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t4",
+      "begin" : 909,
+      "end" : 916,
+      "text" : "android",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t5",
+      "begin" : 917,
+      "end" : 923,
+      "text" : "area51",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t6",
+      "begin" : 924,
+      "end" : 927,
+      "text" : "and",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t7",
+      "begin" : 928,
+      "end" : 930,
+      "text" : "do",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t8",
+      "begin" : 930,
+      "end" : 933,
+      "text" : "n't",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t9",
+      "begin" : 934,
+      "end" : 940,
+      "text" : "forget",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t10",
+      "begin" : 941,
+      "end" : 945,
+      "text" : "your",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t11",
+      "begin" : 946,
+      "end" : 953,
+      "text" : "friends",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t12",
+      "begin" : 954,
+      "end" : 955,
+      "text" : "@",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t13",
+      "begin" : 956,
+      "end" : 959,
+      "text" : "xda",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t14",
+      "begin" : 960,
+      "end" : 961,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t15",
+      "begin" : 962,
+      "end" : 965,
+      "text" : "lot",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t16",
+      "begin" : 966,
+      "end" : 968,
+      "text" : "of",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t17",
+      "begin" : 969,
+      "end" : 973,
+      "text" : "good",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t18",
+      "begin" : 974,
+      "end" : 978,
+      "text" : "info",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t19",
+      "begin" : 978,
+      "end" : 979,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s16",
+    "begin" : 980,
+    "end" : 1062,
+    "text" : "I hope this helps someone cause finding info on this phone is few and far between.",
+    "tokens" : [ {
+      "id" : "s16-t0",
+      "begin" : 980,
+      "end" : 981,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t1",
+      "begin" : 982,
+      "end" : 986,
+      "text" : "hope",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t2",
+      "begin" : 987,
+      "end" : 991,
+      "text" : "this",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t3",
+      "begin" : 992,
+      "end" : 997,
+      "text" : "helps",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t4",
+      "begin" : 998,
+      "end" : 1005,
+      "text" : "someone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t5",
+      "begin" : 1006,
+      "end" : 1011,
+      "text" : "cause",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t6",
+      "begin" : 1012,
+      "end" : 1019,
+      "text" : "finding",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t7",
+      "begin" : 1020,
+      "end" : 1024,
+      "text" : "info",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t8",
+      "begin" : 1025,
+      "end" : 1027,
+      "text" : "on",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t9",
+      "begin" : 1028,
+      "end" : 1032,
+      "text" : "this",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t10",
+      "begin" : 1033,
+      "end" : 1038,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t11",
+      "begin" : 1039,
+      "end" : 1041,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t12",
+      "begin" : 1042,
+      "end" : 1045,
+      "text" : "few",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t13",
+      "begin" : 1046,
+      "end" : 1049,
+      "text" : "and",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t14",
+      "begin" : 1050,
+      "end" : 1053,
+      "text" : "far",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t15",
+      "begin" : 1054,
+      "end" : 1061,
+      "text" : "between",
+      "whiteSpace" : false
+    }, {
+      "id" : "s16-t16",
+      "begin" : 1061,
+      "end" : 1062,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s17",
+    "begin" : 1063,
+    "end" : 1086,
+    "text" : "But I enjoy this phone.",
+    "tokens" : [ {
+      "id" : "s17-t0",
+      "begin" : 1063,
+      "end" : 1066,
+      "text" : "But",
+      "whiteSpace" : false
+    }, {
+      "id" : "s17-t1",
+      "begin" : 1067,
+      "end" : 1068,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s17-t2",
+      "begin" : 1069,
+      "end" : 1074,
+      "text" : "enjoy",
+      "whiteSpace" : false
+    }, {
+      "id" : "s17-t3",
+      "begin" : 1075,
+      "end" : 1079,
+      "text" : "this",
+      "whiteSpace" : false
+    }, {
+      "id" : "s17-t4",
+      "begin" : 1080,
+      "end" : 1085,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s17-t5",
+      "begin" : 1085,
+      "end" : 1086,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s18",
+    "begin" : 1087,
+    "end" : 1132,
+    "text" : "And theirs really no need to root this phone.",
+    "tokens" : [ {
+      "id" : "s18-t0",
+      "begin" : 1087,
+      "end" : 1090,
+      "text" : "And",
+      "whiteSpace" : false
+    }, {
+      "id" : "s18-t1",
+      "begin" : 1091,
+      "end" : 1097,
+      "text" : "theirs",
+      "whiteSpace" : false
+    }, {
+      "id" : "s18-t2",
+      "begin" : 1098,
+      "end" : 1104,
+      "text" : "really",
+      "whiteSpace" : false
+    }, {
+      "id" : "s18-t3",
+      "begin" : 1105,
+      "end" : 1107,
+      "text" : "no",
+      "whiteSpace" : false
+    }, {
+      "id" : "s18-t4",
+      "begin" : 1108,
+      "end" : 1112,
+      "text" : "need",
+      "whiteSpace" : false
+    }, {
+      "id" : "s18-t5",
+      "begin" : 1113,
+      "end" : 1115,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s18-t6",
+      "begin" : 1116,
+      "end" : 1120,
+      "text" : "root",
+      "whiteSpace" : false
+    }, {
+      "id" : "s18-t7",
+      "begin" : 1121,
+      "end" : 1125,
+      "text" : "this",
+      "whiteSpace" : false
+    }, {
+      "id" : "s18-t8",
+      "begin" : 1126,
+      "end" : 1131,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s18-t9",
+      "begin" : 1131,
+      "end" : 1132,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s19",
+    "begin" : 1133,
+    "end" : 1174,
+    "text" : "Like I said I wanted the old web browser.",
+    "tokens" : [ {
+      "id" : "s19-t0",
+      "begin" : 1133,
+      "end" : 1137,
+      "text" : "Like",
+      "whiteSpace" : false
+    }, {
+      "id" : "s19-t1",
+      "begin" : 1138,
+      "end" : 1139,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s19-t2",
+      "begin" : 1140,
+      "end" : 1144,
+      "text" : "said",
+      "whiteSpace" : false
+    }, {
+      "id" : "s19-t3",
+      "begin" : 1145,
+      "end" : 1146,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s19-t4",
+      "begin" : 1147,
+      "end" : 1153,
+      "text" : "wanted",
+      "whiteSpace" : false
+    }, {
+      "id" : "s19-t5",
+      "begin" : 1154,
+      "end" : 1157,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s19-t6",
+      "begin" : 1158,
+      "end" : 1161,
+      "text" : "old",
+      "whiteSpace" : false
+    }, {
+      "id" : "s19-t7",
+      "begin" : 1162,
+      "end" : 1165,
+      "text" : "web",
+      "whiteSpace" : false
+    }, {
+      "id" : "s19-t8",
+      "begin" : 1166,
+      "end" : 1173,
+      "text" : "browser",
+      "whiteSpace" : false
+    }, {
+      "id" : "s19-t9",
+      "begin" : 1173,
+      "end" : 1174,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s20",
+    "begin" : 1175,
+    "end" : 1216,
+    "text" : "But its not worth soft bricking to get it",
+    "tokens" : [ {
+      "id" : "s20-t0",
+      "begin" : 1175,
+      "end" : 1178,
+      "text" : "But",
+      "whiteSpace" : false
+    }, {
+      "id" : "s20-t1",
+      "begin" : 1179,
+      "end" : 1182,
+      "text" : "its",
+      "whiteSpace" : false
+    }, {
+      "id" : "s20-t2",
+      "begin" : 1183,
+      "end" : 1186,
+      "text" : "not",
+      "whiteSpace" : false
+    }, {
+      "id" : "s20-t3",
+      "begin" : 1187,
+      "end" : 1192,
+      "text" : "worth",
+      "whiteSpace" : false
+    }, {
+      "id" : "s20-t4",
+      "begin" : 1193,
+      "end" : 1197,
+      "text" : "soft",
+      "whiteSpace" : false
+    }, {
+      "id" : "s20-t5",
+      "begin" : 1198,
+      "end" : 1206,
+      "text" : "bricking",
+      "whiteSpace" : false
+    }, {
+      "id" : "s20-t6",
+      "begin" : 1207,
+      "end" : 1209,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s20-t7",
+      "begin" : 1210,
+      "end" : 1213,
+      "text" : "get",
+      "whiteSpace" : false
+    }, {
+      "id" : "s20-t8",
+      "begin" : 1214,
+      "end" : 1216,
+      "text" : "it",
+      "whiteSpace" : false
+    } ]
+  } ],
+  "mentions" : [ {
+    "id" : "m4",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 0,
+    "end" : 4,
+    "inCoref" : true
+  }, {
+    "id" : "m5",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 16,
+    "end" : 27,
+    "inCoref" : true
+  }, {
+    "id" : "m1",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 22,
+    "end" : 27,
+    "inCoref" : true
+  }, {
+    "id" : "m2",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 53,
+    "end" : 61,
+    "inCoref" : false
+  }, {
+    "id" : "m3",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 87,
+    "end" : 89,
+    "inCoref" : true
+  }, {
+    "id" : "m6",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 118,
+    "end" : 133,
+    "inCoref" : true
+  }, {
+    "id" : "m7",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 127,
+    "end" : 133,
+    "inCoref" : false
+  }, {
+    "id" : "m8",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 183,
+    "end" : 193,
+    "inCoref" : true
+  }, {
+    "id" : "m9",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 257,
+    "end" : 265,
+    "inCoref" : false
+  }, {
+    "id" : "m10",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 331,
+    "end" : 333,
+    "inCoref" : true
+  }, {
+    "id" : "m11",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 353,
+    "end" : 358,
+    "inCoref" : true
+  }, {
+    "id" : "m12",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 394,
+    "end" : 404,
+    "inCoref" : true
+  }, {
+    "id" : "m13",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 424,
+    "end" : 434,
+    "inCoref" : false
+  }, {
+    "id" : "m14",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 620,
+    "end" : 631,
+    "inCoref" : false
+  }, {
+    "id" : "m15",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 679,
+    "end" : 689,
+    "inCoref" : true
+  }, {
+    "id" : "m16",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 760,
+    "end" : 770,
+    "inCoref" : true
+  }, {
+    "id" : "m17",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 778,
+    "end" : 790,
+    "inCoref" : true
+  }, {
+    "id" : "m18",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 850,
+    "end" : 857,
+    "inCoref" : false
+  }, {
+    "id" : "m19",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 871,
+    "end" : 876,
+    "inCoref" : false
+  }, {
+    "id" : "m20",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 882,
+    "end" : 887,
+    "inCoref" : true
+  }, {
+    "id" : "m21",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 1028,
+    "end" : 1038,
+    "inCoref" : true
+  }, {
+    "id" : "m22",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 1075,
+    "end" : 1085,
+    "inCoref" : true
+  }, {
+    "id" : "m23",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 1091,
+    "end" : 1097,
+    "inCoref" : true
+  }, {
+    "id" : "m24",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 1121,
+    "end" : 1131,
+    "inCoref" : true
+  }, {
+    "id" : "m25",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 1158,
+    "end" : 1173,
+    "inCoref" : false
+  }, {
+    "id" : "m26",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 1214,
+    "end" : 1216,
+    "inCoref" : false
+  } ],
+  "relations" : [ ],
+  "corefs" : [ {
+    "id" : "c1",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : { },
+    "mentions" : [ "m1", "m3" ]
+  }, {
+    "id" : "c2",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : { },
+    "mentions" : [ "m16", "m17" ]
+  }, {
+    "id" : "c3",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : { },
+    "mentions" : [ "m4", "m5", "m6", "m8", "m10", "m11", "m20", "m21", "m22", "m23", "m24" ]
+  }, {
+    "id" : "c4",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : { },
+    "mentions" : [ "m12", "m15" ]
+  } ],
+  "typeResolved" : true,
+  "userResolved" : false
+}

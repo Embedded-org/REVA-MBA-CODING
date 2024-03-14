@@ -1,0 +1,1089 @@
+{
+  "id" : "32afbdf0-3c5f-11eb-8b8a-43f5000567e8-1",
+  "name" : "BlackBerry",
+  "createdDate" : 0,
+  "version" : 3,
+  "text" : "i bought this Bold las december, got it and started using it with the same chip from my old Blackberry. Two weeks ago I decided to register the Bold at the cellphone company and suprise suprise I could not do it because the cellphone serial number is already register under another person's name.... They wouldn't give me detail due to privacy policy. Also the Bold is really slow... I prefer my Samsung 100 times.Compré esta negrita las diciembre, recibí y comencé a usarlo con el mismo chip de mi viejo Blackberry. Hace dos semanas me decidí a registrar el intrépido en la empresa de telefonía celular y sorpresa sorpresa! No pude registrarlo porque el número de serial del teléfono móvil ya está registrado a nombre de otra persona .... No me dieron detalles debido a la política de confidencialidad.",
+  "docLength" : 0,
+  "language" : "EN",
+  "status" : "SUBMITTED",
+  "modifiedDate" : 1607792500110,
+  "documentSet" : [ ],
+  "preannotation" : [ ],
+  "sentences" : [ {
+    "id" : "s0",
+    "begin" : 0,
+    "end" : 103,
+    "text" : "i bought this Bold las december, got it and started using it with the same chip from my old Blackberry.",
+    "tokens" : [ {
+      "id" : "s0-t0",
+      "begin" : 0,
+      "end" : 1,
+      "text" : "i",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t1",
+      "begin" : 2,
+      "end" : 8,
+      "text" : "bought",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t2",
+      "begin" : 9,
+      "end" : 13,
+      "text" : "this",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t3",
+      "begin" : 14,
+      "end" : 18,
+      "text" : "Bold",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t4",
+      "begin" : 19,
+      "end" : 22,
+      "text" : "las",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t5",
+      "begin" : 23,
+      "end" : 31,
+      "text" : "december",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t6",
+      "begin" : 31,
+      "end" : 32,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t7",
+      "begin" : 33,
+      "end" : 36,
+      "text" : "got",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t8",
+      "begin" : 37,
+      "end" : 39,
+      "text" : "it",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t9",
+      "begin" : 40,
+      "end" : 43,
+      "text" : "and",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t10",
+      "begin" : 44,
+      "end" : 51,
+      "text" : "started",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t11",
+      "begin" : 52,
+      "end" : 57,
+      "text" : "using",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t12",
+      "begin" : 58,
+      "end" : 60,
+      "text" : "it",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t13",
+      "begin" : 61,
+      "end" : 65,
+      "text" : "with",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t14",
+      "begin" : 66,
+      "end" : 69,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t15",
+      "begin" : 70,
+      "end" : 74,
+      "text" : "same",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t16",
+      "begin" : 75,
+      "end" : 79,
+      "text" : "chip",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t17",
+      "begin" : 80,
+      "end" : 84,
+      "text" : "from",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t18",
+      "begin" : 85,
+      "end" : 87,
+      "text" : "my",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t19",
+      "begin" : 88,
+      "end" : 91,
+      "text" : "old",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t20",
+      "begin" : 92,
+      "end" : 102,
+      "text" : "Blackberry",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t21",
+      "begin" : 102,
+      "end" : 103,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s1",
+    "begin" : 104,
+    "end" : 351,
+    "text" : "Two weeks ago I decided to register the Bold at the cellphone company and suprise suprise I could not do it because the cellphone serial number is already register under another person's name.... They wouldn't give me detail due to privacy policy.",
+    "tokens" : [ {
+      "id" : "s1-t0",
+      "begin" : 104,
+      "end" : 107,
+      "text" : "Two",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t1",
+      "begin" : 108,
+      "end" : 113,
+      "text" : "weeks",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t2",
+      "begin" : 114,
+      "end" : 117,
+      "text" : "ago",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t3",
+      "begin" : 118,
+      "end" : 119,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t4",
+      "begin" : 120,
+      "end" : 127,
+      "text" : "decided",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t5",
+      "begin" : 128,
+      "end" : 130,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t6",
+      "begin" : 131,
+      "end" : 139,
+      "text" : "register",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t7",
+      "begin" : 140,
+      "end" : 143,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t8",
+      "begin" : 144,
+      "end" : 148,
+      "text" : "Bold",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t9",
+      "begin" : 149,
+      "end" : 151,
+      "text" : "at",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t10",
+      "begin" : 152,
+      "end" : 155,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t11",
+      "begin" : 156,
+      "end" : 165,
+      "text" : "cellphone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t12",
+      "begin" : 166,
+      "end" : 173,
+      "text" : "company",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t13",
+      "begin" : 174,
+      "end" : 177,
+      "text" : "and",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t14",
+      "begin" : 178,
+      "end" : 185,
+      "text" : "suprise",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t15",
+      "begin" : 186,
+      "end" : 193,
+      "text" : "suprise",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t16",
+      "begin" : 194,
+      "end" : 195,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t17",
+      "begin" : 196,
+      "end" : 201,
+      "text" : "could",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t18",
+      "begin" : 202,
+      "end" : 205,
+      "text" : "not",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t19",
+      "begin" : 206,
+      "end" : 208,
+      "text" : "do",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t20",
+      "begin" : 209,
+      "end" : 211,
+      "text" : "it",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t21",
+      "begin" : 212,
+      "end" : 219,
+      "text" : "because",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t22",
+      "begin" : 220,
+      "end" : 223,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t23",
+      "begin" : 224,
+      "end" : 233,
+      "text" : "cellphone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t24",
+      "begin" : 234,
+      "end" : 240,
+      "text" : "serial",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t25",
+      "begin" : 241,
+      "end" : 247,
+      "text" : "number",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t26",
+      "begin" : 248,
+      "end" : 250,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t27",
+      "begin" : 251,
+      "end" : 258,
+      "text" : "already",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t28",
+      "begin" : 259,
+      "end" : 267,
+      "text" : "register",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t29",
+      "begin" : 268,
+      "end" : 273,
+      "text" : "under",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t30",
+      "begin" : 274,
+      "end" : 281,
+      "text" : "another",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t31",
+      "begin" : 282,
+      "end" : 288,
+      "text" : "person",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t32",
+      "begin" : 288,
+      "end" : 290,
+      "text" : "'s",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t33",
+      "begin" : 291,
+      "end" : 295,
+      "text" : "name",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t34",
+      "begin" : 295,
+      "end" : 299,
+      "text" : "....",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t35",
+      "begin" : 300,
+      "end" : 304,
+      "text" : "They",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t36",
+      "begin" : 305,
+      "end" : 310,
+      "text" : "would",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t37",
+      "begin" : 310,
+      "end" : 313,
+      "text" : "n't",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t38",
+      "begin" : 314,
+      "end" : 318,
+      "text" : "give",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t39",
+      "begin" : 319,
+      "end" : 321,
+      "text" : "me",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t40",
+      "begin" : 322,
+      "end" : 328,
+      "text" : "detail",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t41",
+      "begin" : 329,
+      "end" : 332,
+      "text" : "due",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t42",
+      "begin" : 333,
+      "end" : 335,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t43",
+      "begin" : 336,
+      "end" : 343,
+      "text" : "privacy",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t44",
+      "begin" : 344,
+      "end" : 350,
+      "text" : "policy",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t45",
+      "begin" : 350,
+      "end" : 351,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s2",
+    "begin" : 352,
+    "end" : 516,
+    "text" : "Also the Bold is really slow... I prefer my Samsung 100 times.Compré esta negrita las diciembre, recibí y comencé a usarlo con el mismo chip de mi viejo Blackberry.",
+    "tokens" : [ {
+      "id" : "s2-t0",
+      "begin" : 352,
+      "end" : 356,
+      "text" : "Also",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t1",
+      "begin" : 357,
+      "end" : 360,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t2",
+      "begin" : 361,
+      "end" : 365,
+      "text" : "Bold",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t3",
+      "begin" : 366,
+      "end" : 368,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t4",
+      "begin" : 369,
+      "end" : 375,
+      "text" : "really",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t5",
+      "begin" : 376,
+      "end" : 380,
+      "text" : "slow",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t6",
+      "begin" : 380,
+      "end" : 383,
+      "text" : "...",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t7",
+      "begin" : 384,
+      "end" : 385,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t8",
+      "begin" : 386,
+      "end" : 392,
+      "text" : "prefer",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t9",
+      "begin" : 393,
+      "end" : 395,
+      "text" : "my",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t10",
+      "begin" : 396,
+      "end" : 403,
+      "text" : "Samsung",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t11",
+      "begin" : 404,
+      "end" : 407,
+      "text" : "100",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t12",
+      "begin" : 408,
+      "end" : 420,
+      "text" : "times.Compré",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t13",
+      "begin" : 421,
+      "end" : 425,
+      "text" : "esta",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t14",
+      "begin" : 426,
+      "end" : 433,
+      "text" : "negrita",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t15",
+      "begin" : 434,
+      "end" : 437,
+      "text" : "las",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t16",
+      "begin" : 438,
+      "end" : 447,
+      "text" : "diciembre",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t17",
+      "begin" : 447,
+      "end" : 448,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t18",
+      "begin" : 449,
+      "end" : 455,
+      "text" : "recibí",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t19",
+      "begin" : 456,
+      "end" : 457,
+      "text" : "y",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t20",
+      "begin" : 458,
+      "end" : 465,
+      "text" : "comencé",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t21",
+      "begin" : 466,
+      "end" : 467,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t22",
+      "begin" : 468,
+      "end" : 474,
+      "text" : "usarlo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t23",
+      "begin" : 475,
+      "end" : 478,
+      "text" : "con",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t24",
+      "begin" : 479,
+      "end" : 481,
+      "text" : "el",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t25",
+      "begin" : 482,
+      "end" : 487,
+      "text" : "mismo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t26",
+      "begin" : 488,
+      "end" : 492,
+      "text" : "chip",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t27",
+      "begin" : 493,
+      "end" : 495,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t28",
+      "begin" : 496,
+      "end" : 498,
+      "text" : "mi",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t29",
+      "begin" : 499,
+      "end" : 504,
+      "text" : "viejo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t30",
+      "begin" : 505,
+      "end" : 515,
+      "text" : "Blackberry",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t31",
+      "begin" : 515,
+      "end" : 516,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s3",
+    "begin" : 517,
+    "end" : 624,
+    "text" : "Hace dos semanas me decidí a registrar el intrépido en la empresa de telefonía celular y sorpresa sorpresa!",
+    "tokens" : [ {
+      "id" : "s3-t0",
+      "begin" : 517,
+      "end" : 521,
+      "text" : "Hace",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t1",
+      "begin" : 522,
+      "end" : 525,
+      "text" : "dos",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t2",
+      "begin" : 526,
+      "end" : 533,
+      "text" : "semanas",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t3",
+      "begin" : 534,
+      "end" : 536,
+      "text" : "me",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t4",
+      "begin" : 537,
+      "end" : 543,
+      "text" : "decidí",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t5",
+      "begin" : 544,
+      "end" : 545,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t6",
+      "begin" : 546,
+      "end" : 555,
+      "text" : "registrar",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t7",
+      "begin" : 556,
+      "end" : 558,
+      "text" : "el",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t8",
+      "begin" : 559,
+      "end" : 568,
+      "text" : "intrépido",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t9",
+      "begin" : 569,
+      "end" : 571,
+      "text" : "en",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t10",
+      "begin" : 572,
+      "end" : 574,
+      "text" : "la",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t11",
+      "begin" : 575,
+      "end" : 582,
+      "text" : "empresa",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t12",
+      "begin" : 583,
+      "end" : 585,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t13",
+      "begin" : 586,
+      "end" : 595,
+      "text" : "telefonía",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t14",
+      "begin" : 596,
+      "end" : 603,
+      "text" : "celular",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t15",
+      "begin" : 604,
+      "end" : 605,
+      "text" : "y",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t16",
+      "begin" : 606,
+      "end" : 614,
+      "text" : "sorpresa",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t17",
+      "begin" : 615,
+      "end" : 623,
+      "text" : "sorpresa",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t18",
+      "begin" : 623,
+      "end" : 624,
+      "text" : "!",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s4",
+    "begin" : 625,
+    "end" : 803,
+    "text" : "No pude registrarlo porque el número de serial del teléfono móvil ya está registrado a nombre de otra persona .... No me dieron detalles debido a la política de confidencialidad.",
+    "tokens" : [ {
+      "id" : "s4-t0",
+      "begin" : 625,
+      "end" : 627,
+      "text" : "No",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t1",
+      "begin" : 628,
+      "end" : 632,
+      "text" : "pude",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t2",
+      "begin" : 633,
+      "end" : 644,
+      "text" : "registrarlo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t3",
+      "begin" : 645,
+      "end" : 651,
+      "text" : "porque",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t4",
+      "begin" : 652,
+      "end" : 654,
+      "text" : "el",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t5",
+      "begin" : 655,
+      "end" : 661,
+      "text" : "número",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t6",
+      "begin" : 662,
+      "end" : 664,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t7",
+      "begin" : 665,
+      "end" : 671,
+      "text" : "serial",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t8",
+      "begin" : 672,
+      "end" : 675,
+      "text" : "del",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t9",
+      "begin" : 676,
+      "end" : 684,
+      "text" : "teléfono",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t10",
+      "begin" : 685,
+      "end" : 690,
+      "text" : "móvil",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t11",
+      "begin" : 691,
+      "end" : 693,
+      "text" : "ya",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t12",
+      "begin" : 694,
+      "end" : 698,
+      "text" : "está",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t13",
+      "begin" : 699,
+      "end" : 709,
+      "text" : "registrado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t14",
+      "begin" : 710,
+      "end" : 711,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t15",
+      "begin" : 712,
+      "end" : 718,
+      "text" : "nombre",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t16",
+      "begin" : 719,
+      "end" : 721,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t17",
+      "begin" : 722,
+      "end" : 726,
+      "text" : "otra",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t18",
+      "begin" : 727,
+      "end" : 734,
+      "text" : "persona",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t19",
+      "begin" : 735,
+      "end" : 739,
+      "text" : "....",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t20",
+      "begin" : 740,
+      "end" : 742,
+      "text" : "No",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t21",
+      "begin" : 743,
+      "end" : 745,
+      "text" : "me",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t22",
+      "begin" : 746,
+      "end" : 752,
+      "text" : "dieron",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t23",
+      "begin" : 753,
+      "end" : 761,
+      "text" : "detalles",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t24",
+      "begin" : 762,
+      "end" : 768,
+      "text" : "debido",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t25",
+      "begin" : 769,
+      "end" : 770,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t26",
+      "begin" : 771,
+      "end" : 773,
+      "text" : "la",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t27",
+      "begin" : 774,
+      "end" : 782,
+      "text" : "política",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t28",
+      "begin" : 783,
+      "end" : 785,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t29",
+      "begin" : 786,
+      "end" : 802,
+      "text" : "confidencialidad",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t30",
+      "begin" : 802,
+      "end" : 803,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  } ],
+  "mentions" : [ {
+    "id" : "s0-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Model",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Model",
+    "begin" : 9,
+    "end" : 22,
+    "inCoref" : true
+  }, {
+    "id" : "s0-m2",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 37,
+    "end" : 39,
+    "inCoref" : true
+  }, {
+    "id" : "s0-m3",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 58,
+    "end" : 60,
+    "inCoref" : true
+  }, {
+    "id" : "s0-m4",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 70,
+    "end" : 79,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m5",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 85,
+    "end" : 102,
+    "inCoref" : true
+  }, {
+    "id" : "s1-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Model",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Model",
+    "begin" : 144,
+    "end" : 148,
+    "inCoref" : true
+  }, {
+    "id" : "s1-m2",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 156,
+    "end" : 173,
+    "inCoref" : true
+  }, {
+    "id" : "s1-m3",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 224,
+    "end" : 233,
+    "inCoref" : true
+  }, {
+    "id" : "s1-m4",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 234,
+    "end" : 247,
+    "inCoref" : false
+  }, {
+    "id" : "s1-m5",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 300,
+    "end" : 304,
+    "inCoref" : true
+  }, {
+    "id" : "s2-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Model",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Model",
+    "begin" : 361,
+    "end" : 365,
+    "inCoref" : true
+  } ],
+  "relations" : [ ],
+  "corefs" : [ {
+    "id" : "c1",
+    "properties" : { },
+    "mentions" : [ "s0-m1", "s1-m1", "s2-m1" ]
+  }, {
+    "id" : "c2",
+    "properties" : { },
+    "mentions" : [ "s0-m2", "s0-m3", "s0-m5", "s1-m2", "s1-m3", "s1-m5" ]
+  } ],
+  "typeResolved" : true,
+  "userResolved" : false
+}

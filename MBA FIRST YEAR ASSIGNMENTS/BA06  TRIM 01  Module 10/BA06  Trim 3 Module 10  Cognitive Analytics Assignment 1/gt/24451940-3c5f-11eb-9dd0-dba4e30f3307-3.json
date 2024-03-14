@@ -1,0 +1,655 @@
+{
+  "id" : "24451940-3c5f-11eb-9dd0-dba4e30f3307-3",
+  "name" : "Apple",
+  "createdDate" : 0,
+  "version" : 3,
+  "text" : "Moving from Android to Apple...my kids have this phone too and keep me straight on using it. Phone is superb and, while Apple has its moments, it is intuitive to use. Seller was VERY responsive...only reason not a 5 star is \"new\" phone had been opened for imei verification. Not sure that's industry standard. If it is, seller is 5 star.",
+  "docLength" : 0,
+  "language" : "EN",
+  "status" : "SUBMITTED",
+  "modifiedDate" : 1607766489301,
+  "documentSet" : [ ],
+  "preannotation" : [ ],
+  "sentences" : [ {
+    "id" : "s0",
+    "begin" : 0,
+    "end" : 92,
+    "text" : "Moving from Android to Apple...my kids have this phone too and keep me straight on using it.",
+    "tokens" : [ {
+      "id" : "s0-t0",
+      "begin" : 0,
+      "end" : 6,
+      "text" : "Moving",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t1",
+      "begin" : 7,
+      "end" : 11,
+      "text" : "from",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t2",
+      "begin" : 12,
+      "end" : 19,
+      "text" : "Android",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t3",
+      "begin" : 20,
+      "end" : 22,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t4",
+      "begin" : 23,
+      "end" : 28,
+      "text" : "Apple",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t5",
+      "begin" : 28,
+      "end" : 31,
+      "text" : "...",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t6",
+      "begin" : 31,
+      "end" : 33,
+      "text" : "my",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t7",
+      "begin" : 34,
+      "end" : 38,
+      "text" : "kids",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t8",
+      "begin" : 39,
+      "end" : 43,
+      "text" : "have",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t9",
+      "begin" : 44,
+      "end" : 48,
+      "text" : "this",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t10",
+      "begin" : 49,
+      "end" : 54,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t11",
+      "begin" : 55,
+      "end" : 58,
+      "text" : "too",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t12",
+      "begin" : 59,
+      "end" : 62,
+      "text" : "and",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t13",
+      "begin" : 63,
+      "end" : 67,
+      "text" : "keep",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t14",
+      "begin" : 68,
+      "end" : 70,
+      "text" : "me",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t15",
+      "begin" : 71,
+      "end" : 79,
+      "text" : "straight",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t16",
+      "begin" : 80,
+      "end" : 82,
+      "text" : "on",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t17",
+      "begin" : 83,
+      "end" : 88,
+      "text" : "using",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t18",
+      "begin" : 89,
+      "end" : 91,
+      "text" : "it",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t19",
+      "begin" : 91,
+      "end" : 92,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s1",
+    "begin" : 93,
+    "end" : 166,
+    "text" : "Phone is superb and, while Apple has its moments, it is intuitive to use.",
+    "tokens" : [ {
+      "id" : "s1-t0",
+      "begin" : 93,
+      "end" : 98,
+      "text" : "Phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t1",
+      "begin" : 99,
+      "end" : 101,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t2",
+      "begin" : 102,
+      "end" : 108,
+      "text" : "superb",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t3",
+      "begin" : 109,
+      "end" : 112,
+      "text" : "and",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t4",
+      "begin" : 112,
+      "end" : 113,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t5",
+      "begin" : 114,
+      "end" : 119,
+      "text" : "while",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t6",
+      "begin" : 120,
+      "end" : 125,
+      "text" : "Apple",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t7",
+      "begin" : 126,
+      "end" : 129,
+      "text" : "has",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t8",
+      "begin" : 130,
+      "end" : 133,
+      "text" : "its",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t9",
+      "begin" : 134,
+      "end" : 141,
+      "text" : "moments",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t10",
+      "begin" : 141,
+      "end" : 142,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t11",
+      "begin" : 143,
+      "end" : 145,
+      "text" : "it",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t12",
+      "begin" : 146,
+      "end" : 148,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t13",
+      "begin" : 149,
+      "end" : 158,
+      "text" : "intuitive",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t14",
+      "begin" : 159,
+      "end" : 161,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t15",
+      "begin" : 162,
+      "end" : 165,
+      "text" : "use",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t16",
+      "begin" : 165,
+      "end" : 166,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s2",
+    "begin" : 167,
+    "end" : 274,
+    "text" : "Seller was VERY responsive...only reason not a 5 star is \"new\" phone had been opened for imei verification.",
+    "tokens" : [ {
+      "id" : "s2-t0",
+      "begin" : 167,
+      "end" : 173,
+      "text" : "Seller",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t1",
+      "begin" : 174,
+      "end" : 177,
+      "text" : "was",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t2",
+      "begin" : 178,
+      "end" : 182,
+      "text" : "VERY",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t3",
+      "begin" : 183,
+      "end" : 193,
+      "text" : "responsive",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t4",
+      "begin" : 193,
+      "end" : 196,
+      "text" : "...",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t5",
+      "begin" : 196,
+      "end" : 200,
+      "text" : "only",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t6",
+      "begin" : 201,
+      "end" : 207,
+      "text" : "reason",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t7",
+      "begin" : 208,
+      "end" : 211,
+      "text" : "not",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t8",
+      "begin" : 212,
+      "end" : 213,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t9",
+      "begin" : 214,
+      "end" : 215,
+      "text" : "5",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t10",
+      "begin" : 216,
+      "end" : 220,
+      "text" : "star",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t11",
+      "begin" : 221,
+      "end" : 223,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t12",
+      "begin" : 224,
+      "end" : 225,
+      "text" : "\"",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t13",
+      "begin" : 225,
+      "end" : 228,
+      "text" : "new",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t14",
+      "begin" : 228,
+      "end" : 229,
+      "text" : "\"",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t15",
+      "begin" : 230,
+      "end" : 235,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t16",
+      "begin" : 236,
+      "end" : 239,
+      "text" : "had",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t17",
+      "begin" : 240,
+      "end" : 244,
+      "text" : "been",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t18",
+      "begin" : 245,
+      "end" : 251,
+      "text" : "opened",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t19",
+      "begin" : 252,
+      "end" : 255,
+      "text" : "for",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t20",
+      "begin" : 256,
+      "end" : 260,
+      "text" : "imei",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t21",
+      "begin" : 261,
+      "end" : 273,
+      "text" : "verification",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t22",
+      "begin" : 273,
+      "end" : 274,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s3",
+    "begin" : 275,
+    "end" : 309,
+    "text" : "Not sure that's industry standard.",
+    "tokens" : [ {
+      "id" : "s3-t0",
+      "begin" : 275,
+      "end" : 278,
+      "text" : "Not",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t1",
+      "begin" : 279,
+      "end" : 283,
+      "text" : "sure",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t2",
+      "begin" : 284,
+      "end" : 288,
+      "text" : "that",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t3",
+      "begin" : 288,
+      "end" : 290,
+      "text" : "'s",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t4",
+      "begin" : 291,
+      "end" : 299,
+      "text" : "industry",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t5",
+      "begin" : 300,
+      "end" : 308,
+      "text" : "standard",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t6",
+      "begin" : 308,
+      "end" : 309,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s4",
+    "begin" : 310,
+    "end" : 337,
+    "text" : "If it is, seller is 5 star.",
+    "tokens" : [ {
+      "id" : "s4-t0",
+      "begin" : 310,
+      "end" : 312,
+      "text" : "If",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t1",
+      "begin" : 313,
+      "end" : 315,
+      "text" : "it",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t2",
+      "begin" : 316,
+      "end" : 318,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t3",
+      "begin" : 318,
+      "end" : 319,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t4",
+      "begin" : 320,
+      "end" : 326,
+      "text" : "seller",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t5",
+      "begin" : 327,
+      "end" : 329,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t6",
+      "begin" : 330,
+      "end" : 331,
+      "text" : "5",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t7",
+      "begin" : 332,
+      "end" : 336,
+      "text" : "star",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t8",
+      "begin" : 336,
+      "end" : 337,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  } ],
+  "mentions" : [ {
+    "id" : "m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 12,
+    "end" : 19,
+    "inCoref" : false
+  }, {
+    "id" : "m2",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 23,
+    "end" : 28,
+    "inCoref" : true
+  }, {
+    "id" : "m3",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 44,
+    "end" : 54,
+    "inCoref" : true
+  }, {
+    "id" : "m4",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 89,
+    "end" : 91,
+    "inCoref" : true
+  }, {
+    "id" : "m5",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 93,
+    "end" : 98,
+    "inCoref" : true
+  }, {
+    "id" : "m6",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 120,
+    "end" : 125,
+    "inCoref" : true
+  }, {
+    "id" : "m12",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 130,
+    "end" : 133,
+    "inCoref" : true
+  }, {
+    "id" : "m7",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 143,
+    "end" : 145,
+    "inCoref" : true
+  }, {
+    "id" : "m8",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 167,
+    "end" : 173,
+    "inCoref" : true
+  }, {
+    "id" : "m9",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 230,
+    "end" : 235,
+    "inCoref" : true
+  }, {
+    "id" : "m10",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 256,
+    "end" : 260,
+    "inCoref" : false
+  }, {
+    "id" : "m11",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 320,
+    "end" : 326,
+    "inCoref" : true
+  } ],
+  "relations" : [ ],
+  "corefs" : [ {
+    "id" : "c2",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : { },
+    "mentions" : [ "m2", "m3", "m4", "m5", "m6", "m12", "m7", "m8", "m9", "m11" ]
+  } ],
+  "typeResolved" : true,
+  "userResolved" : false
+}

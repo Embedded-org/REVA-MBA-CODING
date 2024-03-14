@@ -1,0 +1,75 @@
+[ {
+  "id" : "id-all",
+  "name" : "All",
+  "createdDate" : 0,
+  "documents" : [ "24451940-3c5f-11eb-9dd0-dba4e30f3307-1", "24451940-3c5f-11eb-9dd0-dba4e30f3307-3", "24451940-3c5f-11eb-9dd0-dba4e30f3307-9", "2c011440-3c5f-11eb-8b8a-43f5000567e8-1", "2c011440-3c5f-11eb-8b8a-43f5000567e8-3", "32afbdf0-3c5f-11eb-8b8a-43f5000567e8-1", "32afbdf0-3c5f-11eb-8b8a-43f5000567e8-2" ],
+  "type" : "ALL",
+  "modifiedDate" : 0,
+  "count" : 7
+}, {
+  "id" : "24451940-3c5f-11eb-9dd0-dba4e30f3307",
+  "name" : "my_Amazon_Unlocked_Mobile_corp1.csv",
+  "createdDate" : 1607766489300,
+  "documents" : [ "24451940-3c5f-11eb-9dd0-dba4e30f3307-1", "24451940-3c5f-11eb-9dd0-dba4e30f3307-3", "24451940-3c5f-11eb-9dd0-dba4e30f3307-9" ],
+  "type" : "SOURCE",
+  "modifiedDate" : 1607766489300,
+  "count" : 3
+}, {
+  "id" : "2c011440-3c5f-11eb-8b8a-43f5000567e8",
+  "name" : "my_Amazon_Unlocked_Mobile_corp2.csv",
+  "createdDate" : 1607766502277,
+  "documents" : [ "2c011440-3c5f-11eb-8b8a-43f5000567e8-1", "2c011440-3c5f-11eb-8b8a-43f5000567e8-3" ],
+  "type" : "SOURCE",
+  "modifiedDate" : 1607766502277,
+  "count" : 2
+}, {
+  "id" : "32afbdf0-3c5f-11eb-8b8a-43f5000567e8",
+  "name" : "my_Amazon_Unlocked_Mobile_corp3.csv",
+  "createdDate" : 1607766513487,
+  "documents" : [ "32afbdf0-3c5f-11eb-8b8a-43f5000567e8-1", "32afbdf0-3c5f-11eb-8b8a-43f5000567e8-2" ],
+  "type" : "SOURCE",
+  "modifiedDate" : 1607766513487,
+  "count" : 2
+}, {
+  "id" : "f7820870-3c70-11eb-a47b-cb8dfa38cf13",
+  "name" : "DocSet1A",
+  "createdDate" : 1607774145143,
+  "documents" : [ "24451940-3c5f-11eb-9dd0-dba4e30f3307-1", "24451940-3c5f-11eb-9dd0-dba4e30f3307-3", "24451940-3c5f-11eb-9dd0-dba4e30f3307-9", "2c011440-3c5f-11eb-8b8a-43f5000567e8-1", "2c011440-3c5f-11eb-8b8a-43f5000567e8-3", "32afbdf0-3c5f-11eb-8b8a-43f5000567e8-1" ],
+  "type" : "ASSIGNMENT",
+  "annotator" : "anand.ba06@reva.edu.in",
+  "modifiedDate" : 1607774145143,
+  "count" : 6
+}, {
+  "id" : "f7820871-3c70-11eb-a47b-cb8dfa38cf13",
+  "name" : "DocSet1B",
+  "createdDate" : 1607774145143,
+  "documents" : [ "24451940-3c5f-11eb-9dd0-dba4e30f3307-1", "24451940-3c5f-11eb-9dd0-dba4e30f3307-3", "24451940-3c5f-11eb-9dd0-dba4e30f3307-9", "2c011440-3c5f-11eb-8b8a-43f5000567e8-1", "32afbdf0-3c5f-11eb-8b8a-43f5000567e8-2" ],
+  "type" : "ASSIGNMENT",
+  "annotator" : "anand.ba06@reva.edu.in",
+  "modifiedDate" : 1607774145143,
+  "count" : 5
+}, {
+  "id" : "8592a1c0-3ca2-11eb-abb1-57071a7dce43",
+  "name" : "Training",
+  "createdDate" : 1607795428828,
+  "documents" : [ "24451940-3c5f-11eb-9dd0-dba4e30f3307-3", "24451940-3c5f-11eb-9dd0-dba4e30f3307-1", "24451940-3c5f-11eb-9dd0-dba4e30f3307-9", "2c011440-3c5f-11eb-8b8a-43f5000567e8-1" ],
+  "type" : "TRAINING",
+  "modifiedDate" : 1607795428828,
+  "count" : 4
+}, {
+  "id" : "85933e00-3ca2-11eb-abb1-57071a7dce43",
+  "name" : "Test",
+  "createdDate" : 1607795428828,
+  "documents" : [ "2c011440-3c5f-11eb-8b8a-43f5000567e8-3" ],
+  "type" : "TEST",
+  "modifiedDate" : 1607795428828,
+  "count" : 1
+}, {
+  "id" : "8593da40-3ca2-11eb-abb1-57071a7dce43",
+  "name" : "Blind",
+  "createdDate" : 1607795428828,
+  "documents" : [ "32afbdf0-3c5f-11eb-8b8a-43f5000567e8-1", "32afbdf0-3c5f-11eb-8b8a-43f5000567e8-2" ],
+  "type" : "BLIND",
+  "modifiedDate" : 1607795428828,
+  "count" : 2
+} ]

@@ -1,0 +1,1105 @@
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+HDFS 
+
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+
+hadoop fs -ls  /user/$USER/
+hdfs dfs -rm -r /user/anandba065877/SentimentFiles
+hdfs dfs -rm -r /user/anandba065877/data
+hdfs dfs -rm -r /user/anandba065877/.Trash
+hdfs dfs -count -q -h /user/$USER/
+hdfs dfs -du -h /user/$USER/
+hdfs dfs -du /user/$USER/
+hdfs dfs -df -h /
+hdfs dfs -df
+
+hadoop fs -put data/MedianHouseholdIncome2015.csv  /user/$USER/
+hdfs dfs -cat /user/anandba065877/MedianHouseholdIncome2015.csv
+hadoop dfs -setrep -w 1  data/
+
+
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+SQL
+
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+
+
+////////////////////////////////////Sqoop Export - Hive to MySQL ///////////////////////////////////////////////////
+
+
+hive
+use sg;
+DROP TABLE IF EXISTS Income_test;
+create table if not exists Income_test (Geographic_Area String,
+City String, Median_Income int)
+COMMENT 'Income2015_details'
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+tblproperties("skip.header.line.count"="1");
+
+LOAD DATA LOCAL INPATH 'data/MedianHouseholdIncome2015.csv' INTO TABLE Income_test;
+SELECT *FROM Income_test limit 10;
+
+insert overwrite  directory '/apps/hive/warehouse/sg.db/income_test' row format delimited fields terminated by ',' stored as textfile select Geographic_Area,City,nvl(Median_Income,10000) as Median_Income from Income_test limit 200;
+
+hdfs dfs -rm -r /apps/hive/warehouse/sg.db/income_test/000000_0
+hadoop fs -ls  /apps/hive/warehouse/sg.db/income_test/
+hadoop fs -cat  /apps/hive/warehouse/sg.db/income_test/000000_0|wc
+
+DROP TABLE IF EXISTS BelowPovertyLevel;
+create table if not exists BelowPovertyLevel (PovertyArea String,
+City String, poverty_rate Float)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+tblproperties("skip.header.line.count"="1");
+
+LOAD DATA LOCAL INPATH 'data/PercentagePeopleBelowPovertyLevel.csv' INTO TABLE BelowPovertyLevel;
+SELECT *FROM BelowPovertyLevel limit 10;
+
+insert overwrite  directory '/apps/hive/warehouse/sg.db/BelowPovertyLevel' row format delimited fields terminated by ',' stored as textfile select PovertyArea,City,nvl(poverty_rate,0.0) as poverty_rate from BelowPovertyLevel limit 200;
+
+hdfs dfs -rm -r /apps/hive/warehouse/sg.db/BelowPovertyLevel/000000_0
+hadoop fs -ls  /apps/hive/warehouse/sg.db/BelowPovertyLevel/
+hadoop fs -cat  /apps/hive/warehouse/sg.db/BelowPovertyLevel/000000_0|wc
+
+
+
+DROP TABLE IF EXISTS completed_hs;
+create table if not exists completed_hs (hsArea String,
+City String, percent_completed_hs Float)
+COMMENT 'Income2015_details'
+ROW FORMAT DELIMITED 
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+tblproperties("skip.header.line.count"="1");
+
+LOAD DATA LOCAL INPATH 'data/PercentOver25CompletedHighSchool.csv' INTO TABLE completed_hs;
+SELECT * FROM completed_hs limit 10;
+
+insert overwrite  directory '/apps/hive/warehouse/sg.db/completed_hs' row format delimited fields terminated by ',' stored as textfile select hsArea,City,nvl(percent_completed_hs,0.0) as percent_completed_hs from completed_hs limit 200;
+
+hdfs dfs -rm -r /apps/hive/warehouse/sg.db/completed_hs/000000_0
+hadoop fs -ls  /apps/hive/warehouse/sg.db/completed_hs/
+hadoop fs -cat  /apps/hive/warehouse/sg.db/completed_hs/000000_0|wc
+
+
+#TO launch mysql:
+mysql -h cxln2.c.thelab-240901.internal -u sqoopuser -pNHkkP876rp
+
+#Create MYSQL Table:
+use sqoopex;
+DROP TABLE IF EXISTS Income2015;
+create table if not exists Income2015 (
+Geographic_Area varchar(30) not null default 'New',
+City varchar(30) not null default 'New',
+Median_Income int not null);
+
+SELECT *FROM Income2015 limit 10;
+SELECT COUNT(*) FROM Income2015;
+
+DROP TABLE IF EXISTS BelowPovertyLevel_sql;
+create table if not exists BelowPovertyLevel_sql (PovertyArea varchar(30) not null default 'New',
+City varchar(30) not null default 'New',
+poverty_rate Float not null);
+
+SELECT *FROM BelowPovertyLevel_sql limit 10;
+SELECT COUNT(*) FROM BelowPovertyLevel_sql;
+
+DROP TABLE IF EXISTS completed_hs_sql;
+create table if not exists completed_hs_sql (hsArea varchar(30) not null default 'New',
+City varchar(30) not null default 'New',
+percent_completed_hs Float not null);
+
+SELECT *FROM completed_hs_sql limit 10;
+SELECT COUNT(*) FROM completed_hs_sql;
+
+exit
+
+/apps/hive/warehouse/sg.db/BelowPovertyLevel
+
+sqoop export --connect jdbc:mysql://cxln2.c.thelab-240901.internal/sqoopex -m 1 --table Income2015 --export-dir /apps/hive/warehouse/sg.db/income_test/000000_0 --input-fields-terminated-by ',' --username sqoopuser --password NHkkP876rp;
+
+sqoop export --connect jdbc:mysql://cxln2.c.thelab-240901.internal/sqoopex -m 1 --table BelowPovertyLevel_sql --export-dir /apps/hive/warehouse/sg.db/BelowPovertyLevel/000000_0 --input-fields-terminated-by ',' --username sqoopuser --password NHkkP876rp;
+
+
+sqoop export --connect jdbc:mysql://cxln2.c.thelab-240901.internal/sqoopex -m 1 --table completed_hs_sql --export-dir /apps/hive/warehouse/sg.db/completed_hs/000000_0 --input-fields-terminated-by ',' --username sqoopuser --password NHkkP876rp;
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  COMPLETED Sqoop Export - Hive to MySQL  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+DROP TABLE IF EXISTS income_scan;
+CREATE TABLE income_scan select Income2015.Geographic_Area,Income2015.City,Income2015.Median_Income,BelowPovertyLevel_sql.poverty_rate
+from Income2015 left outer join  BelowPovertyLevel_sql
+on Income2015.City = BelowPovertyLevel_sql.City
+order by Income2015.Median_Income ;
+
+DROP TABLE IF EXISTS BelowPoverty_scan;
+CREATE TABLE BelowPoverty_scan select BelowPovertyLevel_sql.PovertyArea,BelowPovertyLevel_sql.City,Income2015.Median_Income,BelowPovertyLevel_sql.poverty_rate 
+from Income2015 right outer join  BelowPovertyLevel_sql
+on Income2015.City = BelowPovertyLevel_sql.City
+order by Income2015.Median_Income;
+
+DROP TABLE IF EXISTS completed_hs_scan;
+CREATE TABLE completed_hs_scan select completed_hs_sql.hsArea,completed_hs_sql.City,completed_hs_sql.percent_completed_hs,BelowPovertyLevel_sql.poverty_rate 
+from completed_hs_sql left outer join  BelowPovertyLevel_sql
+on completed_hs_sql.City = BelowPovertyLevel_sql.City
+order by completed_hs_sql.percent_completed_hs;
+
+
+SELECT MIN(Median_Income)FROM income_scan;
++--------------------+
+| MIN(Median_Income) |
++--------------------+
+|              10000 |
++--------------------+
+1 row in set (0.00 sec)
+
+SELECT MAX(Median_Income)FROM income_scan;
+
++--------------------+
+| MAX(Median_Income) |
++--------------------+
+|              96333 |
++--------------------+
+1 row in set (0.00 sec)
+
+SELECT AVG(Median_Income)FROM income_scan;
+
++--------------------+
+| AVG(Median_Income) |
++--------------------+
+|         35402.4950 |
++--------------------+
+1 row in set (0.00 sec)
+
+SELECT City,Median_Income,poverty_rate FROM income_scan
+GROUP BY City HAVING Median_Income > 10000 and Median_Income < 35402 
+ORDER BY Median_Income
+LIMIT 10;
+
++------------------+---------------+--------------+
+| City             | Median_Income | poverty_rate |
++------------------+---------------+--------------+
+| Abanda CDP       |         11207 |         78.8 |
+| Boligee town     |         12173 |         60.3 |
+| Gainesville town |         14444 |         40.9 |
+| Frisco City town |         17311 |         31.3 |
+| Beatrice town    |         18417 |         44.9 |
+| Evergreen city   |         18661 |         52.6 |
+| Forkland town    |         19063 |         48.1 |
+| Cordova city     |         19139 |         32.8 |
+| Clio city        |         19539 |         31.4 |
+| Coffeeville town |         19583 |         41.3 |
++------------------+---------------+--------------+
+10 rows in set (0.00 sec)
+
+SELECT City,Median_Income,poverty_rate FROM income_scan
+GROUP BY City  
+ORDER BY Median_Income Desc
+LIMIT 10;
+
++----------------------+---------------+--------------+
+| City                 | Median_Income | poverty_rate |
++----------------------+---------------+--------------+
+| Blue Ridge CDP       |         96333 |          0.5 |
+| Emerald Mountain CDP |         91054 |          8.2 |
+| Chelsea city         |         85757 |          4.9 |
+| Deatsville town      |         78125 |          5.1 |
+| Alabaster city       |         71816 |         11.2 |
+| Clay city            |         68717 |          6.6 |
+| Fredonia CDP         |         66591 |         18.4 |
+| Dauphin Island town  |         63594 |          3.6 |
+| Fruitdale CDP        |         63125 |           33 |
+| Calera city          |         62893 |          5.8 |
++----------------------+---------------+--------------+
+10 rows in set (0.00 sec)
+
+SELECT COUNT(*) FROM income_scan
+where Median_Income > 10000 and Median_Income <  35402; 
+
++----------+
+| COUNT(*) |
++----------+
+|       96 |
++----------+
+
+SELECT COUNT(*) FROM income_scan
+where Median_Income >  35402 and Median_Income <= 96333;
+
++----------+
+| COUNT(*) |
++----------+
+|       89 |
++----------+
+
+SELECT MIN(poverty_rate)FROM BelowPoverty_scan;
++-------------------+
+| MIN(poverty_rate) |
++-------------------+
+|                 0 |
++-------------------+
+1 row in set (0.01 sec)
+
+SELECT MAX(poverty_rate)FROM BelowPoverty_scan;
++-------------------+
+| MAX(poverty_rate) |
++-------------------+
+|  79.4000015258789 |
++-------------------+
+1 row in set (0.00 sec)
+
+SELECT AVG(poverty_rate)FROM BelowPoverty_scan;
++--------------------+
+| AVG(poverty_rate)  |
++--------------------+
+| 22.827999968528747 |
++--------------------+
+1 row in set (0.00 sec)
+
+SELECT City,Median_Income,poverty_rate FROM BelowPoverty_scan
+GROUP BY City HAVING poverty_rate > 0.0 and poverty_rate < 22.82 and Median_Income!=10000
+ORDER BY poverty_rate
+LIMIT 10;
+
++---------------------+---------------+--------------+
+| City                | Median_Income | poverty_rate |
++---------------------+---------------+--------------+
+| Blue Ridge CDP      |         96333 |          0.5 |
+| Dauphin Island town |         63594 |          3.6 |
+| Gallant CDP         |         45859 |          3.9 |
+| Blue Springs town   |         45313 |            4 |
+| Egypt CDP           |         56693 |          4.5 |
+| Chelsea city        |         85757 |          4.9 |
+| Edwardsville town   |         38438 |          5.1 |
+| Deatsville town     |         78125 |          5.1 |
+| Calera city         |         62893 |          5.8 |
+| Franklin town       |         60417 |          6.6 |
++---------------------+---------------+--------------+
+10 rows in set (0.00 sec)
+
+
+SELECT City,Median_Income,poverty_rate FROM BelowPoverty_scan
+GROUP BY City HAVING Median_Income!=10000
+ORDER BY poverty_rate Desc
+LIMIT 10;
++------------------+---------------+--------------+
+| City             | Median_Income | poverty_rate |
++------------------+---------------+--------------+
+| Abanda CDP       |         11207 |         78.8 |
+| Boligee town     |         12173 |         60.3 |
+| Evergreen city   |         18661 |         52.6 |
+| Forkland town    |         19063 |         48.1 |
+| Bon Air town     |         23750 |         47.6 |
+| Beatrice town    |         18417 |         44.9 |
+| Bellamy CDP      |         22132 |         42.9 |
+| Akron town       |         21667 |           42 |
+| Aliceville city  |         21131 |         41.3 |
+| Coffeeville town |         19583 |         41.3 |
++------------------+---------------+--------------+
+10 rows in set (0.00 sec)
+
+SELECT COUNT(*) FROM BelowPoverty_scan
+where poverty_rate > 0.0  and poverty_rate < 22.82 and Median_Income!=10000; 
+
++----------+
+| COUNT(*) |
++----------+
+|       88 |
++----------+
+1 row in set (0.00 sec)
+
+SELECT COUNT(*) FROM BelowPoverty_scan
+where poverty_rate > 22.82 and poverty_rate <= 80 and Median_Income!=10000; 
+
++----------+
+| COUNT(*) |
++----------+
+|       93 |
++----------+
+1 row in set (0.00 sec)
+
+
+SELECT MIN(percent_completed_hs)FROM completed_hs_scan;
++---------------------------+
+| MIN(percent_completed_hs) |
++---------------------------+
+|        21.200000762939453 |
++---------------------------+
+1 row in set (0.00 sec)
+
+SELECT MAX(percent_completed_hs)FROM completed_hs_scan;
++---------------------------+
+| MAX(percent_completed_hs) |
++---------------------------+
+|                       100 |
++---------------------------+
+1 row in set (0.00 sec)
+
+SELECT AVG(percent_completed_hs)FROM completed_hs_scan;
++---------------------------+
+| AVG(percent_completed_hs) |
++---------------------------+
+|         80.00199993133545 |
++---------------------------+
+1 row in set (0.00 sec)
+
+SELECT City,percent_completed_hs,poverty_rate FROM completed_hs_scan
+GROUP BY City HAVING percent_completed_hs > 21 and percent_completed_hs < 80 and poverty_rate!=0
+ORDER BY percent_completed_hs
+LIMIT 10;
+
++---------------------+----------------------+--------------+
+| City                | percent_completed_hs | poverty_rate |
++---------------------+----------------------+--------------+
+| Abanda CDP          |                 21.2 |         78.8 |
+| Calvert CDP         |                 22.8 |         79.4 |
+| Allgood town        |                 48.1 |         27.7 |
+| Collinsville town   |                   52 |         32.1 |
+| Boykin CDP          |                 53.7 |         53.7 |
+| Clayton town        |                 57.8 |         29.3 |
+| Bayou La Batre city |                 58.5 |         30.1 |
+| Fitzpatrick CDP     |                 60.7 |         15.5 |
+| Five Points town    |                 61.9 |         20.4 |
+| Clio city           |                 63.1 |         31.4 |
++---------------------+----------------------+--------------+
+10 rows in set (0.00 sec)
+
+
+SELECT City,percent_completed_hs,poverty_rate FROM completed_hs_scan
+GROUP BY City HAVING poverty_rate!=0
+ORDER BY percent_completed_hs Desc
+LIMIT 10;
+
++---------------------+----------------------+--------------+
+| City                | percent_completed_hs | poverty_rate |
++---------------------+----------------------+--------------+
+| Dayton town         |                  100 |           48 |
+| Fort Rucker CDP     |                 98.8 |            8 |
+| Blue Ridge CDP      |                 97.6 |          0.5 |
+| Deatsville town     |                 96.3 |          5.1 |
+| Brook Highland CDP  |                 96.2 |         11.5 |
+| Dauphin Island town |                 95.8 |          3.6 |
+| Daphne city         |                 95.8 |         11.2 |
+| Blue Springs town   |                 95.6 |            4 |
+| Fairhope city       |                 95.4 |         11.2 |
+| Auburn city         |                 94.3 |         31.8 |
++---------------------+----------------------+--------------+
+10 rows in set (0.00 sec)
+
+SELECT COUNT(*) FROM completed_hs_scan
+where percent_completed_hs > 21 and percent_completed_hs <  80 and poverty_rate!=0; 
+
++----------+
+| COUNT(*) |
++----------+
+|       97 |
++----------+
+1 row in set (0.00 sec)
+
+SELECT COUNT(*) FROM completed_hs_scan
+where percent_completed_hs >  80 and percent_completed_hs <= 100 and poverty_rate!=0;
+
++----------+
+| COUNT(*) |
++----------+
+|       94 |
++----------+
+1 row in set (0.00 sec)
+
+SELECT COUNT(column_name) FROM table_name;
+SELECT COUNT(DISTINCT column_name) FROM table_name;
+SELECT COUNT(DISTINCT column_name) FROM table_name;
+SELECT SUM(column_name) FROM table_name;
+ALTER TABLE table_name CHANGE column_name new column_name varchar(30);
+
+
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+HIVE
+
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+
+
+create database if not exists ${env:USER};
+create schema if not exists ${env:USER};
+drop schema ${env:USER};
+drop database if exists ${env:USER} cascade;
+show databases;
+show schemas;
+
+hive
+use sg;
+
+DROP TABLE IF EXISTS PoliceKillingsUS;
+create table if not exists PoliceKillingsUS (id int,
+name String,date1 String,manner_of_death String,armed String, age int,
+gender String,race String,city String,state String,signs_of_mental_illness String,
+threat_level String,flee String,body_camera String)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+tblproperties("skip.header.line.count"="1");
+
+DROP TABLE IF EXISTS ShareRaceByCity;
+create table if not exists ShareRaceByCity (GeographicArea String,
+City String,share_white Float,share_black Float,share_native_american Float,share_asian Float,share_hispanic Float)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+tblproperties("skip.header.line.count"="1");
+
+
+
+SELECT MIN(share_white) as min_share_white FROM ShareRaceByCity;
+SELECT MAX(share_white) as max_share_white FROM ShareRaceByCity;
+SELECT AVG(share_white) as avg_share_white FROM ShareRaceByCity;
+
+hadoop fs -put data/PoliceKillingsUS.csv  /user/$USER/
+load data inpath '/user/anandba065877/PoliceKillingsUS.csv' overwrite into table sg.PoliceKillingsUS;
+
+
+
+hadoop fs -put data/ShareRaceByCity.csv  /user/$USER/
+load data inpath '/user/anandba065877/ShareRaceByCity.csv' overwrite into table sg.ShareRaceByCity;
+
+
+SELECT *FROM PoliceKillingsUS limit 10;
+SELECT * FROM ShareRaceByCity limit 10;
+
+
+SELECT City FROM ShareRaceByCity 
+where share_white>70.0
+GROUP BY City 
+limit 50000;
+
+Zephyr Cove CDP
+Zephyrhills North CDP
+Zephyrhills South CDP
+Zephyrhills West CDP
+Zephyrhills city
+Zihlman CDP
+Zilwaukee city
+Zimmerman city
+Zinc town
+Zion CDP
+Zionsville town
+Zoar village
+Zortman CDP
+Zuehl CDP
+Zumbro Falls city
+Zumbrota city
+Zurich city
+Zwingle city
+Time taken: 20.552 seconds, Fetched: 20242 row(s)
+
+SELECT City FROM ShareRaceByCity 
+where share_black>70.0
+GROUP BY City 
+limit 50000;
+
+Wilmar city
+Wilmot city
+Wilson City village
+Wilson village
+Winstonville town
+Winton town
+Woodland city
+Woodmere CDP
+Woodmore CDP
+Woodson CDP
+Woodville town
+Yazoo City city
+Yeadon borough
+Yellow Bluff town
+York city
+Time taken: 27.867 seconds, Fetched: 510 row(s)
+
+SELECT City FROM ShareRaceByCity 
+where share_native_american>70.0
+GROUP BY City 
+limit 50000;
+
+White Swan CDP
+Whitecone CDP
+Whitehorse CDP
+Whiteriver CDP
+Whiterocks CDP
+Wide Ruins CDP
+Window Rock CDP
+Winnebago village
+Wounded Knee CDP
+Wyola CDP
+Yah-ta-hey CDP
+Zia Pueblo CDP
+Zoar CDP
+Zuni Pueblo CDP
+Time taken: 29.639 seconds, Fetched: 499 row(s)
+
+SELECT City FROM ShareRaceByCity 
+where share_asian>50.0
+GROUP BY City 
+limit 500;
+
+San Gabriel city
+San Marino city
+Temple City city
+Ten Mile Run CDP
+Union City city
+Urban Honolulu CDP
+Waikele CDP
+Waipahu CDP
+Waipio CDP
+Walnut city
+West Loch Estate CDP
+Whitmore Village CDP
+Time taken: 22.561 seconds, Fetched: 42 row(s)
+
+SELECT GeographicArea,City,share_white,share_black,share_native_american,share_asian FROM ShareRaceByCity
+where share_asian>50.0
+order by GeographicArea,share_asian
+LIMIT 50;
+
+CA      San Gabriel city        25.4    1.0     0.6     60.7
+CA      Rowland Heights CDP     23.5    1.6     0.4     59.8
+HI      Ewa Villages CDP        4.7     0.6     0.0     59.5
+CA      Arcadia city    32.3    1.2     0.3     59.2
+HI      Royal Kunia CDP 12.0    1.8     0.2     58.4
+HI      Eleele CDP      12.1    0.3     0.2     58.2
+NJ      Palisades Park borough  28.9    2.0     0.3     57.8
+HI      Aiea CDP        15.0    0.7     0.1     57.7
+HI      Hanamaulu CDP   9.1     0.4     0.1     57.0
+HI      Waipio CDP      11.6    1.5     0.2     56.4
+PA      Millbourne borough      13.7    20.1    0.6     56.3
+HI      Lanai City CDP  14.0    0.2     0.1     56.0
+CA      Temple City city        33.6    0.8     0.4     55.7
+CA      Daly City city  23.6    3.6     0.4     55.6
+HI      West Loch Estate CDP    13.7    1.7     0.2     55.0
+HI      Urban Honolulu CDP      17.9    1.5     0.2     54.8
+HI      Puhi CDP        18.3    0.2     0.1     54.6
+HI      Waikele CDP     16.0    2.7     0.2     54.1
+CA      San Marino city 41.3    0.4     0.0     53.5
+HI      Pearl City CDP  16.0    2.9     0.3     53.2
+HI      Kahului CDP     9.9     0.4     0.3     53.1
+CA      Alhambra city   28.3    1.5     0.6     52.9
+AK      Adak city       19.6    4.0     5.5     52.5
+CA      Diamond Bar city        33.2    4.1     0.3     52.5
+HI      Keaau CDP       12.4    0.2     0.2     52.0
+HI      Halawa CDP      12.3    1.5     0.1     51.6
+CA      Union City city 23.9    6.3     0.5     50.9
+CA      Camino Tassajara CDP    39.9    2.4     0.2     50.8
+HI      Ewa Beach CDP   8.4     0.7     0.1     50.6
+CA      Fremont city    32.8    3.3     0.5     50.6
+NJ      Ten Mile Run CDP        31.9    11.9    0.1     50.5
+HI      Mililani Mauka CDP      17.4    2.3     0.2     50.3
+Time taken: 23.541 seconds, Fetched: 42 row(s)
+
+SELECT GeographicArea,City,share_white,share_native_american,share_asian,share_black FROM ShareRaceByCity
+where share_black>85.0
+order by GeographicArea,share_black
+LIMIT 2000;
+
+SC      Wilkinson Heights CDP   3.0     0.1     0.2     92.5
+SC      Eastover town   5.0     0.4     0.0     93.4
+SC      Gifford town    4.2     0.0     0.0     94.1
+SC      Promised Land CDP       4.1     0.0     0.4     94.1
+SC      Gadsden CDP     4.3     0.2     0.1     94.4
+SC      Brookdale CDP   0.8     0.1     0.2     98.1
+SC      Jenkinsville town       0.0     0.0     0.0     100.0
+TN      "Lynchburg      NULL    2.3     0.3     95.4
+TX      Prairie View city       4.9     0.2     0.4     88.6
+TX      Goodlow city    8.5     0.0     0.0     90.5
+VA      East Highland Park CDP  10.8    0.4     0.7     85.1
+VA      Southampton Meadows CDP 8.6     0.2     0.0     85.6
+VA      Cats Bridge CDP 11.8    0.0     0.0     86.9
+VA      Makemie Park CDP        10.3    0.0     0.0     88.4
+VA      Boston CDP      9.7     0.0     0.0     88.9
+VA      Savage Town CDP 0.0     0.0     0.0     94.9
+VA      Thynedale CDP   4.6     0.0     0.5     94.9
+VA      Bayside CDP     4.2     0.0     0.0     95.0
+Time taken: 25.819 seconds, Fetched: 225 row(s)
+
+SELECT GeographicArea,City,share_white,share_black,share_asian,share_native_american FROM ShareRaceByCity
+where share_native_american>90.0
+order by GeographicArea,share_native_american
+LIMIT 2000;
+
+UT      Tselakai Dezza CDP      0.0     0.0     0.0     98.2
+UT      Halchita CDP    0.8     0.0     0.0     98.9
+WA      Queets CDP      2.9     0.6     0.0     91.4
+WA      Nespelem Community CDP  4.7     0.0     0.0     93.7
+WI      New Odanah CDP  4.2     0.2     0.0     91.1
+WI      Diaperville CDP 1.4     0.0     0.0     92.9
+WI      Birch Hill CDP  3.8     0.0     0.0     93.2
+WI      Keshena CDP     2.8     0.1     0.0     95.2
+WI      Neopit CDP      2.0     0.0     0.0     96.7
+WI      Middle Village CDP      1.1     0.0     0.0     98.9
+WI      Zoar CDP        1.0     0.0     0.0     99.0
+WI      Odanah CDP      0.0     0.0     0.0     100.0
+WY      Fort Washakie CDP       5.6     0.0     0.0     92.5
+WY      Ethete CDP      4.5     0.1     0.1     93.7
+Time taken: 29.958 seconds, Fetched: 349 row(s)
+
+
+SELECT gender,count(*) FROM PoliceKillingsUS 
+where age<=16
+GROUP BY gender;
+
+F       2
+M       26
+
+SELECT gender,count(*) FROM PoliceKillingsUS 
+where age>16 
+GROUP BY gender;
+
+F       102
+M       2327
+
+SELECT race,count(*)as cnt FROM PoliceKillingsUS 
+where age>16 and gender="M"
+GROUP BY race
+order by cnt;
+
+N       25
+O       26
+A       36
+        139
+H       400
+B       572
+W       1129
+SELECT race,count(*)as cnt FROM PoliceKillingsUS 
+where age>16 and gender="F"
+GROUP BY race
+order by cnt;
+
+A       1
+O       2
+H       4
+N       5
+        7
+B       26
+W       57
+
+SELECT flee,count(*)as cnt FROM PoliceKillingsUS 
+where age>16 
+GROUP BY flee
+order by cnt;
+
+        60
+Other   91
+Foot    283
+Car     367
+Not fleeing     1628
+Time taken: 46.748 seconds, Fetched: 5 row(s)
+
+SELECT armed,count(*)as cnt FROM PoliceKillingsUS 
+where age>16 and flee='Not fleeing'
+GROUP BY armed 
+order by cnt desc
+limit 10;
+
+gun     897
+knife   300
+unarmed 95
+toy weapon      77
+undetermined    58
+vehicle 41
+machete 15
+unknown weapon  13
+baseball bat    8
+ax      8
+Time taken: 45.586 seconds, Fetched: 10 row(s)
+
+SELECT armed,count(*)as cnt FROM PoliceKillingsUS 
+where age>16 and flee='Car'
+GROUP BY armed 
+order by cnt desc
+limit 10;
+
+gun     182
+vehicle 113
+unarmed 26
+undetermined    18
+knife   10
+toy weapon      8
+machete 2
+hatchet 1
+blunt object    1
+unknown weapon  1
+Time taken: 46.07 seconds, Fetched: 10 row(s)
+
+SELECT city,count(*)as cnt FROM PoliceKillingsUS 
+where age>16 
+GROUP BY city
+order by cnt desc
+limit 10;
+
+Los Angeles     34
+Phoenix 30
+Houston 25
+Chicago 24
+Las Vegas       19
+Austin  18
+Columbus        17
+San Antonio     17
+Miami   16
+St. Louis       14
+Time taken: 47.291 seconds, Fetched: 10 row(s)
+
+SELECT min(share_white),min(share_black),min(share_native_american),min(share_asian),min(share_hispanic)FROM ShareRaceByCity;
+
+result:0.0     0.0     0.0     0.0     0.0
+
+SELECT max(share_white),max(share_black),max(share_native_american),max(share_asian),max(share_hispanic)FROM ShareRaceByCity;
+
+result:100.0   100.0   100.0   67.1    100.0
+
+
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+PIG
+
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+pig -x mapreduce
+register /usr/hdp/current/pig-client/piggybank.jar;
+Income2015 = load '/user/anandba065877/MedianHouseholdIncome2015.csv' using org.apache.pig.piggybank.storage.CSVExcelStorage(',', 'NO_MULTILINE', 'NOCHANGE', 'SKIP_INPUT_HEADER') as (GeographicArea:chararray,City:chararray,Median_Income:int);
+
+describe Income2015;
+b = limit Income2015 5;
+dump b
+
+Income2015 = FILTER Income2015 BY Median_Income IS NOT NULL;
+A = FOREACH Income2015 GENERATE GeographicArea,City,Median_Income;
+B = ORDER A BY Median_Income DESC;
+C = LIMIT B 5; 
+dump C;
+
+BelowPovertyLevel = load '/user/anandba065877/PercentagePeopleBelowPovertyLevel.csv' using org.apache.pig.piggybank.storage.CSVExcelStorage
+(',', 'NO_MULTILINE', 'NOCHANGE', 'SKIP_INPUT_HEADER') 
+as (PovertyArea:chararray,City:chararray,poverty_rate:float);
+
+describe BelowPovertyLevel;
+b = limit BelowPovertyLevel 5;
+dump b;
+
+BelowPovertyLevel = FILTER BelowPovertyLevel BY poverty_rate IS NOT NULL;
+A = FOREACH BelowPovertyLevel GENERATE PovertyArea,City,poverty_rate;
+B = ORDER A BY poverty_rate DESC;
+C = LIMIT B 5; 
+dump C;
+
+completed_hs = load '/user/anandba065877/PercentOver25CompletedHighSchool.csv' using org.apache.pig.piggybank.storage.CSVExcelStorage
+(',', 'NO_MULTILINE', 'NOCHANGE', 'SKIP_INPUT_HEADER') 
+as (hsArea:chararray,City:chararray,percent_completed_hs:float);
+
+describe completed_hs;
+b = limit completed_hs 5;
+dump b
+
+completed_hs = FILTER completed_hs BY percent_completed_hs IS NOT NULL;
+A = FOREACH completed_hs GENERATE hsArea,City,percent_completed_hs;
+B = ORDER A BY percent_completed_hs DESC;
+C = LIMIT B 5; 
+dump C;
+
+
+Income_scan =JOIN Income2015 BY City LEFT OUTER, BelowPovertyLevel BY City;
+Income_scan = foreach Income_scan generate $0,$1,$2,$5;
+A = limit Income_scan 5;
+dump A;
+
+B = ORDER Income_scan BY Median_Income DESC;
+C = LIMIT B 10; 
+dump C;
+
+(CO,Crisman CDP,244083,0.0)
+(NY,Scarsdale village,242782,2.3)
+(MD,Chevy Chase Section Three village,242500,1.8)
+(CA,Hidden Hills city,241667,4.9)
+(MD,Chevy Chase View town,238125,0.5)
+(CO,Cherry Hills Village city,237569,2.1)
+(TX,Bunker Hill Village city,236250,2.1)
+(VA,Great Falls CDP,234091,1.9)
+(KY,Glenview city,233036,4.8)
+(NY,Muttontown village,230179,3.4)
+
+B = ORDER Income_scan BY Median_Income ;
+C = LIMIT B 10; 
+dump C;
+
+(AZ,Stanfield CDP,4511,68.5)
+(CA,Delft Colony CDP,6917,100.0)
+(ND,Conway city,7083,18.4)
+(ND,Conway city,7083,44.4)
+(ND,Conway city,7083,34.2)
+(ND,Conway city,7083,32.0)
+(ND,Conway city,7083,0.0)
+(AZ,Lower Santan Village CDP,7175,76.4)
+(VA,Union Level CDP,8015,52.5)
+(OK,Badger Lee CDP,8229,93.8)
+
+STORE Income_scan INTO '/user/anandba065877/Income_scan' USING PigStorage (',');
+hdfs dfs -get "/user/anandba065877/Income_scan"  "data/"
+
+BelowPoverty_scan =JOIN Income2015 BY City RIGHT OUTER, BelowPovertyLevel BY City;
+BelowPoverty_scan = foreach BelowPoverty_scan generate $0,$1,$2,$5;
+A = limit BelowPoverty_scan 5;
+dump A;
+
+B = ORDER BelowPoverty_scan BY poverty_rate DESC;
+C = LIMIT B 10; 
+dump C;
+
+(RI,Kingston CDP,71786,100.0)
+(WA,Kingston CDP,47153,100.0)
+(NV,Kingston CDP,43452,100.0)
+(AL,Oak Grove town,40972,100.0)
+(FL,Middleburg CDP,48430,100.0)
+(TX,Oak Grove town,85078,100.0)
+(LA,Oak Grove town,28938,100.0)
+(AR,Oak Grove town,36625,100.0)
+(WA,Addy CDP,9167,100.0)
+(,,,100.0)
+
+B = ORDER BelowPoverty_scan BY poverty_rate ;
+C = LIMIT B 10; 
+dump C;
+
+(WY,Taylor CDP,77917,0.0)
+(,,,0.0)
+(,,,0.0)
+(NJ,Hainesburg CDP,90156,0.0)
+(OK,Tiawah CDP,90313,0.0)
+(PA,Grier City CDP,75078,0.0)
+(NC,Jefferson town,27174,0.0)
+(,,,0.0)
+(CA,Tipton CDP,31445,0.0)
+(SC,Jefferson town,30750,0.0)
+
+STORE BelowPoverty_scan INTO '/user/anandba065877/BelowPoverty_scan' USING PigStorage (',');
+hdfs dfs -get "/user/anandba065877/BelowPoverty_scan"  "data/"
+
+completed_hs_scan =JOIN completed_hs BY City LEFT OUTER, BelowPovertyLevel BY City;
+completed_hs_scan = foreach completed_hs_scan generate $0,$1,$2,$5;
+A = limit completed_hs_scan 5;
+dump A;
+
+B = ORDER completed_hs_scan BY percent_completed_hs DESC;
+C = LIMIT B 10; 
+dump C;
+
+(SD,Roswell CDP,100.0,42.9)
+(CA,Sattley CDP,100.0,0.0)
+(IA,Rossie city,100.0,11.1)
+(MD,Whitehaven CDP,100.0,19.6)
+(PA,Clinton CDP,100.0,5.4)
+(CO,Eldorado Springs CDP,100.0,4.7)
+(MT,Rosebud CDP,100.0,43.7)
+(MT,Rosebud CDP,100.0,7.6)
+(FL,Morriston CDP,100.0,0.0)
+(PA,Clinton CDP,100.0,8.7)
+
+B = ORDER completed_hs_scan BY percent_completed_hs;
+C = LIMIT B 10; 
+dump C;
+
+(KY,Rosine CDP,0.0,0.0)
+(TX,La Esperanza CDP,0.0,0.0)
+(NM,Kingston CDP,0.0,0.0)
+(NM,Kingston CDP,0.0,100.0)
+(TX,Tierra Dorada CDP,0.0,100.0)
+(TX,Casa Blanca CDP,0.0,60.3)
+(TX,Chaparrito CDP,0.0,100.0)
+(TX,Casa Blanca CDP,0.0,0.0)
+(KS,Harris CDP,0.0,0.0)
+(TX,Evergreen CDP,0.0,100.0)
+
+STORE completed_hs_scan INTO '/user/anandba065877/completed_hs_scan' USING PigStorage (',');
+hdfs dfs -get "/user/anandba065877/completed_hs_scan"  "data/"
+
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+SQOOP
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+
+
+////////////////////////////////////Sqoop Export - Hive to MySQL ///////////////////////////////////////////////////
+
+hive
+use sg;
+
+DROP TABLE IF EXISTS PoliceKillingsUS_HBASE;
+create table if not exists PoliceKillingsUS_HBASE (id int,
+name String)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+tblproperties("skip.header.line.count"="1");
+
+
+LOAD DATA LOCAL INPATH 'data/PoliceKillingsUS_HBASE.csv' INTO TABLE PoliceKillingsUS_HBASE;
+
+SELECT *FROM PoliceKillingsUS_HBASE limit 10;
+SELECT id,name FROM PoliceKillingsUS_HBASE 
+where id=216 or  id=292 or id=290 or id=213 or id=212 
+or id=210 or id=209 or id=208 or id=287 or id=207;
+
+insert overwrite  directory '/apps/hive/warehouse/sg.db/PoliceKillingsUS_HBASE' row format delimited fields terminated by ',' 
+stored as textfile select id,name from PoliceKillingsUS_HBASE limit 200;
+
+
+hdfs dfs -rm -r /apps/hive/warehouse/sg.db/PoliceKillingsUS_HBASE/000000_0
+hadoop fs -ls  /apps/hive/warehouse/sg.db/PoliceKillingsUS_HBASE/
+hadoop fs -cat  /apps/hive/warehouse/sg.db/PoliceKillingsUS_HBASE/000000_0|wc
+
+sqoop export --connect jdbc:mysql://cxln2.c.thelab-240901.internal/sqoopex -m 1 --table PoliceKillingsUS_HBASE --export-dir /apps/hive/warehouse/sg.db/PoliceKillingsUS_HBASE/000000_0 --input-fields-terminated-by ',' --username sqoopuser --password NHkkP876rp;
+
+
+#TO launch mysql:
+mysql -h cxln2.c.thelab-240901.internal -u sqoopuser -pNHkkP876rp
+
+#Create MYSQL Table:
+use sqoopex;
+DROP TABLE IF EXISTS PoliceKillingsUS_HBASE;
+create table if not exists PoliceKillingsUS_HBASE (
+id int not null,
+name varchar(40) not null default 'New'
+);
+SELECT *FROM PoliceKillingsUS_HBASE limit 10;
+
+////////////////////////////////////Sqoop Import - MySQL to HDFS ///////////////////////////////////////////////////
+
+
+
+
+sqoop import --connect jdbc:mysql://10.142.1.2/sqoopex --table income_scan -m 1 --username sqoopuser --password NHkkP876rp --target-dir /user/anandba065877/income_scan
+
+hdfs dfs -ls /user/anandba065877/income_scan/
+hdfs dfs -cat /user/anandba065877/income_scan/part-m-00000|head -n 10
+
+
+
+////////////////////////////////////Sqoop Import - MySQL to HIVE ///////////////////////////////////////////////////
+
+hive
+use sg;
+SELECT *FROM income_scan limit 10;
+DROP TABLE IF EXISTS income_scan;
+
+
+
+hdfs dfs -rm -r /user/anandba065877/income_scan/
+sqoop import --connect jdbc:mysql://cxln2.c.thelab-240901.internal/sqoopex -m 1 --table income_scan --hive-import --username sqoopuser --password NHkkP876rp --hive-database sg 
+
+
+////////////////////////////////////Sqoop Import - MySQL to HBase///////////////////////////////////////////////////
+
+
+sqoop import --connect jdbc:mysql://cxln2.c.thelab-240901.internal/sqoopex --table PoliceKillingsUS_HBASE --hbase-table 'PoliceKillingsUS_HBASE' --column-family KLD_ID_NM --username sqoopuser --hbase-create-table --columns id,name --hbase-row-key id -m 1 --password NHkkP876rp
+
+
+hbase shell
+enable 'PoliceKillingsUS_HBASE'
+scan 'PoliceKillingsUS_HBASE', {'LIMIT' => 10}
+disable 'PoliceKillingsUS_HBASE'
+drop 'PoliceKillingsUS_HBASE'
+exit
+
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+HBASE
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+
+hbase shell
+status
+table_help
+create  'empANAND', 'personal data', 'professional data'
+list 
+disable 'empANAND'
+scan 'empANAND'
+is_disabled 'empANAND'
+enable 'empANAND'
+is_enabled 'empANAND'
+scan 'empANAND'
+
+describe 'empANAND'
+alter 'empANAND', NAME ⇒ 'personal data', VERSIONS ⇒ 5
+alter 'empANAND','delete'⇒'professional'
+exists 'empANAND'
+disable 'empANAND'
+drop 'empANAND'
+create  'empANAND', 'personal data', 'professional data'
+put 'empANAND','1','personal data:name','raju'
+put 'empANAND','1','personal data:city','hyderabad'
+put 'empANAND','1','professional data:designation','manager'
+put 'empANAND','1','professional data:salary','50000'
+scan 'empANAND'
+
+put 'empANAND','1','personal data:city','Delhi'
+scan 'empANAND'
+
+get 'empANAND', '1'
+delete 'empANAND', '1', 'personal data:city'
+scan 'empANAND'
+deleteall 'empANAND','1'
+scan 'empANAND'
+
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+Flume
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+
+#Get a copy of sample flume conf from common data
+hadoop fs -copyToLocal /data/flume/conf
+
+# Change the port to 44440 and location to hdfs://10.142.1.1/user/anandba065877/flume_webdata in HDFS
+vim conf/flume.properties
+
+#Launch the flume agent
+flume-ng agent --conf conf --conf-file conf/flume.properties --name a1 Dflume.root.logger=INFO,console
+
+# Open a new console and Connect to the same port that you defined in config
+nc localhost 44440
+
+# Generate some data 
+Type something in the console
+
+#Open a new console and Check in hdfs using 
+
+hdfs dfs -rm -r '/user/anandba065877/flume_webdata/'
+hadoop fs -ls '/user/anandba065877/flume_webdata/'
+hadoop fs -cat '/user/anandba065877/flume_webdata/FlumeData.1684937136897'
+
+
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************
+COMPLETED........THE  END ...........................
+**************************************************************************************************************
+**************************************************************************************************************
+**************************************************************************************************************

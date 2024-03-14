@@ -1,0 +1,1898 @@
+{
+  "id" : "2c011440-3c5f-11eb-8b8a-43f5000567e8-1",
+  "name" : "Samsung",
+  "createdDate" : 0,
+  "version" : 3,
+  "text" : "I purchased this phone in December as a christmas present to my son. I called sprint to activate the phone only to find out the ESN wasn't clear. I was told to come into the store and upon research the phone wasn't clear. I reached out to this company to inform them that this ESN wasn't clean. I was told to send the phone back and they would send out another phone. I asked the representative to provide me with the ESN # so that I could call and make sure it was clear. I was told that they didn't have to phone available and was guaranteed it would be clear. I should've known something was wrong then. I received a second phone that turned out not have a clear ESN. The representative at Sprint informed me that the seller of these phones are aware the the ESN isn't clear. So once again I had to send another phone back. I asked for a refund for the phone and shipping since the sent me two phones that didn't have a clear ESN. I received my refund for the phone but have yet to see a refund for the shipping. I wouldn't suggest you buy anything from them.",
+  "docLength" : 0,
+  "language" : "EN",
+  "status" : "SUBMITTED",
+  "modifiedDate" : 1607766502277,
+  "documentSet" : [ ],
+  "preannotation" : [ ],
+  "sentences" : [ {
+    "id" : "s0",
+    "begin" : 0,
+    "end" : 68,
+    "text" : "I purchased this phone in December as a christmas present to my son.",
+    "tokens" : [ {
+      "id" : "s0-t0",
+      "begin" : 0,
+      "end" : 1,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t1",
+      "begin" : 2,
+      "end" : 11,
+      "text" : "purchased",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t2",
+      "begin" : 12,
+      "end" : 16,
+      "text" : "this",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t3",
+      "begin" : 17,
+      "end" : 22,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t4",
+      "begin" : 23,
+      "end" : 25,
+      "text" : "in",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t5",
+      "begin" : 26,
+      "end" : 34,
+      "text" : "December",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t6",
+      "begin" : 35,
+      "end" : 37,
+      "text" : "as",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t7",
+      "begin" : 38,
+      "end" : 39,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t8",
+      "begin" : 40,
+      "end" : 49,
+      "text" : "christmas",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t9",
+      "begin" : 50,
+      "end" : 57,
+      "text" : "present",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t10",
+      "begin" : 58,
+      "end" : 60,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t11",
+      "begin" : 61,
+      "end" : 63,
+      "text" : "my",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t12",
+      "begin" : 64,
+      "end" : 67,
+      "text" : "son",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t13",
+      "begin" : 67,
+      "end" : 68,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s1",
+    "begin" : 69,
+    "end" : 145,
+    "text" : "I called sprint to activate the phone only to find out the ESN wasn't clear.",
+    "tokens" : [ {
+      "id" : "s1-t0",
+      "begin" : 69,
+      "end" : 70,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t1",
+      "begin" : 71,
+      "end" : 77,
+      "text" : "called",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t2",
+      "begin" : 78,
+      "end" : 84,
+      "text" : "sprint",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t3",
+      "begin" : 85,
+      "end" : 87,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t4",
+      "begin" : 88,
+      "end" : 96,
+      "text" : "activate",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t5",
+      "begin" : 97,
+      "end" : 100,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t6",
+      "begin" : 101,
+      "end" : 106,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t7",
+      "begin" : 107,
+      "end" : 111,
+      "text" : "only",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t8",
+      "begin" : 112,
+      "end" : 114,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t9",
+      "begin" : 115,
+      "end" : 119,
+      "text" : "find",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t10",
+      "begin" : 120,
+      "end" : 123,
+      "text" : "out",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t11",
+      "begin" : 124,
+      "end" : 127,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t12",
+      "begin" : 128,
+      "end" : 131,
+      "text" : "ESN",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t13",
+      "begin" : 132,
+      "end" : 135,
+      "text" : "was",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t14",
+      "begin" : 135,
+      "end" : 138,
+      "text" : "n't",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t15",
+      "begin" : 139,
+      "end" : 144,
+      "text" : "clear",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t16",
+      "begin" : 144,
+      "end" : 145,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s2",
+    "begin" : 146,
+    "end" : 221,
+    "text" : "I was told to come into the store and upon research the phone wasn't clear.",
+    "tokens" : [ {
+      "id" : "s2-t0",
+      "begin" : 146,
+      "end" : 147,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t1",
+      "begin" : 148,
+      "end" : 151,
+      "text" : "was",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t2",
+      "begin" : 152,
+      "end" : 156,
+      "text" : "told",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t3",
+      "begin" : 157,
+      "end" : 159,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t4",
+      "begin" : 160,
+      "end" : 164,
+      "text" : "come",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t5",
+      "begin" : 165,
+      "end" : 169,
+      "text" : "into",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t6",
+      "begin" : 170,
+      "end" : 173,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t7",
+      "begin" : 174,
+      "end" : 179,
+      "text" : "store",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t8",
+      "begin" : 180,
+      "end" : 183,
+      "text" : "and",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t9",
+      "begin" : 184,
+      "end" : 188,
+      "text" : "upon",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t10",
+      "begin" : 189,
+      "end" : 197,
+      "text" : "research",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t11",
+      "begin" : 198,
+      "end" : 201,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t12",
+      "begin" : 202,
+      "end" : 207,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t13",
+      "begin" : 208,
+      "end" : 211,
+      "text" : "was",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t14",
+      "begin" : 211,
+      "end" : 214,
+      "text" : "n't",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t15",
+      "begin" : 215,
+      "end" : 220,
+      "text" : "clear",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t16",
+      "begin" : 220,
+      "end" : 221,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s3",
+    "begin" : 222,
+    "end" : 294,
+    "text" : "I reached out to this company to inform them that this ESN wasn't clean.",
+    "tokens" : [ {
+      "id" : "s3-t0",
+      "begin" : 222,
+      "end" : 223,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t1",
+      "begin" : 224,
+      "end" : 231,
+      "text" : "reached",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t2",
+      "begin" : 232,
+      "end" : 235,
+      "text" : "out",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t3",
+      "begin" : 236,
+      "end" : 238,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t4",
+      "begin" : 239,
+      "end" : 243,
+      "text" : "this",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t5",
+      "begin" : 244,
+      "end" : 251,
+      "text" : "company",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t6",
+      "begin" : 252,
+      "end" : 254,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t7",
+      "begin" : 255,
+      "end" : 261,
+      "text" : "inform",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t8",
+      "begin" : 262,
+      "end" : 266,
+      "text" : "them",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t9",
+      "begin" : 267,
+      "end" : 271,
+      "text" : "that",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t10",
+      "begin" : 272,
+      "end" : 276,
+      "text" : "this",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t11",
+      "begin" : 277,
+      "end" : 280,
+      "text" : "ESN",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t12",
+      "begin" : 281,
+      "end" : 284,
+      "text" : "was",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t13",
+      "begin" : 284,
+      "end" : 287,
+      "text" : "n't",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t14",
+      "begin" : 288,
+      "end" : 293,
+      "text" : "clean",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t15",
+      "begin" : 293,
+      "end" : 294,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s4",
+    "begin" : 295,
+    "end" : 367,
+    "text" : "I was told to send the phone back and they would send out another phone.",
+    "tokens" : [ {
+      "id" : "s4-t0",
+      "begin" : 295,
+      "end" : 296,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t1",
+      "begin" : 297,
+      "end" : 300,
+      "text" : "was",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t2",
+      "begin" : 301,
+      "end" : 305,
+      "text" : "told",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t3",
+      "begin" : 306,
+      "end" : 308,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t4",
+      "begin" : 309,
+      "end" : 313,
+      "text" : "send",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t5",
+      "begin" : 314,
+      "end" : 317,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t6",
+      "begin" : 318,
+      "end" : 323,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t7",
+      "begin" : 324,
+      "end" : 328,
+      "text" : "back",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t8",
+      "begin" : 329,
+      "end" : 332,
+      "text" : "and",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t9",
+      "begin" : 333,
+      "end" : 337,
+      "text" : "they",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t10",
+      "begin" : 338,
+      "end" : 343,
+      "text" : "would",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t11",
+      "begin" : 344,
+      "end" : 348,
+      "text" : "send",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t12",
+      "begin" : 349,
+      "end" : 352,
+      "text" : "out",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t13",
+      "begin" : 353,
+      "end" : 360,
+      "text" : "another",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t14",
+      "begin" : 361,
+      "end" : 366,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t15",
+      "begin" : 366,
+      "end" : 367,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s5",
+    "begin" : 368,
+    "end" : 472,
+    "text" : "I asked the representative to provide me with the ESN # so that I could call and make sure it was clear.",
+    "tokens" : [ {
+      "id" : "s5-t0",
+      "begin" : 368,
+      "end" : 369,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t1",
+      "begin" : 370,
+      "end" : 375,
+      "text" : "asked",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t2",
+      "begin" : 376,
+      "end" : 379,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t3",
+      "begin" : 380,
+      "end" : 394,
+      "text" : "representative",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t4",
+      "begin" : 395,
+      "end" : 397,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t5",
+      "begin" : 398,
+      "end" : 405,
+      "text" : "provide",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t6",
+      "begin" : 406,
+      "end" : 408,
+      "text" : "me",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t7",
+      "begin" : 409,
+      "end" : 413,
+      "text" : "with",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t8",
+      "begin" : 414,
+      "end" : 417,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t9",
+      "begin" : 418,
+      "end" : 421,
+      "text" : "ESN",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t10",
+      "begin" : 422,
+      "end" : 423,
+      "text" : "#",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t11",
+      "begin" : 424,
+      "end" : 426,
+      "text" : "so",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t12",
+      "begin" : 427,
+      "end" : 431,
+      "text" : "that",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t13",
+      "begin" : 432,
+      "end" : 433,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t14",
+      "begin" : 434,
+      "end" : 439,
+      "text" : "could",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t15",
+      "begin" : 440,
+      "end" : 444,
+      "text" : "call",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t16",
+      "begin" : 445,
+      "end" : 448,
+      "text" : "and",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t17",
+      "begin" : 449,
+      "end" : 453,
+      "text" : "make",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t18",
+      "begin" : 454,
+      "end" : 458,
+      "text" : "sure",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t19",
+      "begin" : 459,
+      "end" : 461,
+      "text" : "it",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t20",
+      "begin" : 462,
+      "end" : 465,
+      "text" : "was",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t21",
+      "begin" : 466,
+      "end" : 471,
+      "text" : "clear",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t22",
+      "begin" : 471,
+      "end" : 472,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s6",
+    "begin" : 473,
+    "end" : 562,
+    "text" : "I was told that they didn't have to phone available and was guaranteed it would be clear.",
+    "tokens" : [ {
+      "id" : "s6-t0",
+      "begin" : 473,
+      "end" : 474,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t1",
+      "begin" : 475,
+      "end" : 478,
+      "text" : "was",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t2",
+      "begin" : 479,
+      "end" : 483,
+      "text" : "told",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t3",
+      "begin" : 484,
+      "end" : 488,
+      "text" : "that",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t4",
+      "begin" : 489,
+      "end" : 493,
+      "text" : "they",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t5",
+      "begin" : 494,
+      "end" : 497,
+      "text" : "did",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t6",
+      "begin" : 497,
+      "end" : 500,
+      "text" : "n't",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t7",
+      "begin" : 501,
+      "end" : 505,
+      "text" : "have",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t8",
+      "begin" : 506,
+      "end" : 508,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t9",
+      "begin" : 509,
+      "end" : 514,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t10",
+      "begin" : 515,
+      "end" : 524,
+      "text" : "available",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t11",
+      "begin" : 525,
+      "end" : 528,
+      "text" : "and",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t12",
+      "begin" : 529,
+      "end" : 532,
+      "text" : "was",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t13",
+      "begin" : 533,
+      "end" : 543,
+      "text" : "guaranteed",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t14",
+      "begin" : 544,
+      "end" : 546,
+      "text" : "it",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t15",
+      "begin" : 547,
+      "end" : 552,
+      "text" : "would",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t16",
+      "begin" : 553,
+      "end" : 555,
+      "text" : "be",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t17",
+      "begin" : 556,
+      "end" : 561,
+      "text" : "clear",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t18",
+      "begin" : 561,
+      "end" : 562,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s7",
+    "begin" : 563,
+    "end" : 606,
+    "text" : "I should've known something was wrong then.",
+    "tokens" : [ {
+      "id" : "s7-t0",
+      "begin" : 563,
+      "end" : 564,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t1",
+      "begin" : 565,
+      "end" : 571,
+      "text" : "should",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t2",
+      "begin" : 571,
+      "end" : 574,
+      "text" : "'ve",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t3",
+      "begin" : 575,
+      "end" : 580,
+      "text" : "known",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t4",
+      "begin" : 581,
+      "end" : 590,
+      "text" : "something",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t5",
+      "begin" : 591,
+      "end" : 594,
+      "text" : "was",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t6",
+      "begin" : 595,
+      "end" : 600,
+      "text" : "wrong",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t7",
+      "begin" : 601,
+      "end" : 605,
+      "text" : "then",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t8",
+      "begin" : 605,
+      "end" : 606,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s8",
+    "begin" : 607,
+    "end" : 670,
+    "text" : "I received a second phone that turned out not have a clear ESN.",
+    "tokens" : [ {
+      "id" : "s8-t0",
+      "begin" : 607,
+      "end" : 608,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t1",
+      "begin" : 609,
+      "end" : 617,
+      "text" : "received",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t2",
+      "begin" : 618,
+      "end" : 619,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t3",
+      "begin" : 620,
+      "end" : 626,
+      "text" : "second",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t4",
+      "begin" : 627,
+      "end" : 632,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t5",
+      "begin" : 633,
+      "end" : 637,
+      "text" : "that",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t6",
+      "begin" : 638,
+      "end" : 644,
+      "text" : "turned",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t7",
+      "begin" : 645,
+      "end" : 648,
+      "text" : "out",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t8",
+      "begin" : 649,
+      "end" : 652,
+      "text" : "not",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t9",
+      "begin" : 653,
+      "end" : 657,
+      "text" : "have",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t10",
+      "begin" : 658,
+      "end" : 659,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t11",
+      "begin" : 660,
+      "end" : 665,
+      "text" : "clear",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t12",
+      "begin" : 666,
+      "end" : 669,
+      "text" : "ESN",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t13",
+      "begin" : 669,
+      "end" : 670,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s9",
+    "begin" : 671,
+    "end" : 778,
+    "text" : "The representative at Sprint informed me that the seller of these phones are aware the the ESN isn't clear.",
+    "tokens" : [ {
+      "id" : "s9-t0",
+      "begin" : 671,
+      "end" : 674,
+      "text" : "The",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t1",
+      "begin" : 675,
+      "end" : 689,
+      "text" : "representative",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t2",
+      "begin" : 690,
+      "end" : 692,
+      "text" : "at",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t3",
+      "begin" : 693,
+      "end" : 699,
+      "text" : "Sprint",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t4",
+      "begin" : 700,
+      "end" : 708,
+      "text" : "informed",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t5",
+      "begin" : 709,
+      "end" : 711,
+      "text" : "me",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t6",
+      "begin" : 712,
+      "end" : 716,
+      "text" : "that",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t7",
+      "begin" : 717,
+      "end" : 720,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t8",
+      "begin" : 721,
+      "end" : 727,
+      "text" : "seller",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t9",
+      "begin" : 728,
+      "end" : 730,
+      "text" : "of",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t10",
+      "begin" : 731,
+      "end" : 736,
+      "text" : "these",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t11",
+      "begin" : 737,
+      "end" : 743,
+      "text" : "phones",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t12",
+      "begin" : 744,
+      "end" : 747,
+      "text" : "are",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t13",
+      "begin" : 748,
+      "end" : 753,
+      "text" : "aware",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t14",
+      "begin" : 754,
+      "end" : 757,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t15",
+      "begin" : 758,
+      "end" : 761,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t16",
+      "begin" : 762,
+      "end" : 765,
+      "text" : "ESN",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t17",
+      "begin" : 766,
+      "end" : 768,
+      "text" : "is",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t18",
+      "begin" : 768,
+      "end" : 771,
+      "text" : "n't",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t19",
+      "begin" : 772,
+      "end" : 777,
+      "text" : "clear",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t20",
+      "begin" : 777,
+      "end" : 778,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s10",
+    "begin" : 779,
+    "end" : 826,
+    "text" : "So once again I had to send another phone back.",
+    "tokens" : [ {
+      "id" : "s10-t0",
+      "begin" : 779,
+      "end" : 781,
+      "text" : "So",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t1",
+      "begin" : 782,
+      "end" : 786,
+      "text" : "once",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t2",
+      "begin" : 787,
+      "end" : 792,
+      "text" : "again",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t3",
+      "begin" : 793,
+      "end" : 794,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t4",
+      "begin" : 795,
+      "end" : 798,
+      "text" : "had",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t5",
+      "begin" : 799,
+      "end" : 801,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t6",
+      "begin" : 802,
+      "end" : 806,
+      "text" : "send",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t7",
+      "begin" : 807,
+      "end" : 814,
+      "text" : "another",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t8",
+      "begin" : 815,
+      "end" : 820,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t9",
+      "begin" : 821,
+      "end" : 825,
+      "text" : "back",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t10",
+      "begin" : 825,
+      "end" : 826,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s11",
+    "begin" : 827,
+    "end" : 933,
+    "text" : "I asked for a refund for the phone and shipping since the sent me two phones that didn't have a clear ESN.",
+    "tokens" : [ {
+      "id" : "s11-t0",
+      "begin" : 827,
+      "end" : 828,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t1",
+      "begin" : 829,
+      "end" : 834,
+      "text" : "asked",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t2",
+      "begin" : 835,
+      "end" : 838,
+      "text" : "for",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t3",
+      "begin" : 839,
+      "end" : 840,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t4",
+      "begin" : 841,
+      "end" : 847,
+      "text" : "refund",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t5",
+      "begin" : 848,
+      "end" : 851,
+      "text" : "for",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t6",
+      "begin" : 852,
+      "end" : 855,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t7",
+      "begin" : 856,
+      "end" : 861,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t8",
+      "begin" : 862,
+      "end" : 865,
+      "text" : "and",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t9",
+      "begin" : 866,
+      "end" : 874,
+      "text" : "shipping",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t10",
+      "begin" : 875,
+      "end" : 880,
+      "text" : "since",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t11",
+      "begin" : 881,
+      "end" : 884,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t12",
+      "begin" : 885,
+      "end" : 889,
+      "text" : "sent",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t13",
+      "begin" : 890,
+      "end" : 892,
+      "text" : "me",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t14",
+      "begin" : 893,
+      "end" : 896,
+      "text" : "two",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t15",
+      "begin" : 897,
+      "end" : 903,
+      "text" : "phones",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t16",
+      "begin" : 904,
+      "end" : 908,
+      "text" : "that",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t17",
+      "begin" : 909,
+      "end" : 912,
+      "text" : "did",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t18",
+      "begin" : 912,
+      "end" : 915,
+      "text" : "n't",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t19",
+      "begin" : 916,
+      "end" : 920,
+      "text" : "have",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t20",
+      "begin" : 921,
+      "end" : 922,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t21",
+      "begin" : 923,
+      "end" : 928,
+      "text" : "clear",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t22",
+      "begin" : 929,
+      "end" : 932,
+      "text" : "ESN",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t23",
+      "begin" : 932,
+      "end" : 933,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s12",
+    "begin" : 934,
+    "end" : 1015,
+    "text" : "I received my refund for the phone but have yet to see a refund for the shipping.",
+    "tokens" : [ {
+      "id" : "s12-t0",
+      "begin" : 934,
+      "end" : 935,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t1",
+      "begin" : 936,
+      "end" : 944,
+      "text" : "received",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t2",
+      "begin" : 945,
+      "end" : 947,
+      "text" : "my",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t3",
+      "begin" : 948,
+      "end" : 954,
+      "text" : "refund",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t4",
+      "begin" : 955,
+      "end" : 958,
+      "text" : "for",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t5",
+      "begin" : 959,
+      "end" : 962,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t6",
+      "begin" : 963,
+      "end" : 968,
+      "text" : "phone",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t7",
+      "begin" : 969,
+      "end" : 972,
+      "text" : "but",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t8",
+      "begin" : 973,
+      "end" : 977,
+      "text" : "have",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t9",
+      "begin" : 978,
+      "end" : 981,
+      "text" : "yet",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t10",
+      "begin" : 982,
+      "end" : 984,
+      "text" : "to",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t11",
+      "begin" : 985,
+      "end" : 988,
+      "text" : "see",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t12",
+      "begin" : 989,
+      "end" : 990,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t13",
+      "begin" : 991,
+      "end" : 997,
+      "text" : "refund",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t14",
+      "begin" : 998,
+      "end" : 1001,
+      "text" : "for",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t15",
+      "begin" : 1002,
+      "end" : 1005,
+      "text" : "the",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t16",
+      "begin" : 1006,
+      "end" : 1014,
+      "text" : "shipping",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t17",
+      "begin" : 1014,
+      "end" : 1015,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s13",
+    "begin" : 1016,
+    "end" : 1062,
+    "text" : "I wouldn't suggest you buy anything from them.",
+    "tokens" : [ {
+      "id" : "s13-t0",
+      "begin" : 1016,
+      "end" : 1017,
+      "text" : "I",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t1",
+      "begin" : 1018,
+      "end" : 1023,
+      "text" : "would",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t2",
+      "begin" : 1023,
+      "end" : 1026,
+      "text" : "n't",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t3",
+      "begin" : 1027,
+      "end" : 1034,
+      "text" : "suggest",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t4",
+      "begin" : 1035,
+      "end" : 1038,
+      "text" : "you",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t5",
+      "begin" : 1039,
+      "end" : 1042,
+      "text" : "buy",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t6",
+      "begin" : 1043,
+      "end" : 1051,
+      "text" : "anything",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t7",
+      "begin" : 1052,
+      "end" : 1056,
+      "text" : "from",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t8",
+      "begin" : 1057,
+      "end" : 1061,
+      "text" : "them",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t9",
+      "begin" : 1061,
+      "end" : 1062,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  } ],
+  "mentions" : [ {
+    "id" : "m26",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 12,
+    "end" : 22,
+    "inCoref" : false
+  }, {
+    "id" : "m1",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 12,
+    "end" : 16,
+    "inCoref" : true
+  }, {
+    "id" : "m2",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 17,
+    "end" : 22,
+    "inCoref" : true
+  }, {
+    "id" : "m27",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Model",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Model",
+    "begin" : 78,
+    "end" : 84,
+    "inCoref" : true
+  }, {
+    "id" : "m3",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 78,
+    "end" : 84,
+    "inCoref" : true
+  }, {
+    "id" : "m4",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 101,
+    "end" : 106,
+    "inCoref" : true
+  }, {
+    "id" : "m5",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 128,
+    "end" : 131,
+    "inCoref" : false
+  }, {
+    "id" : "m6",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 202,
+    "end" : 207,
+    "inCoref" : true
+  }, {
+    "id" : "m28",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Model",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Model",
+    "begin" : 239,
+    "end" : 251,
+    "inCoref" : true
+  }, {
+    "id" : "m7",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 239,
+    "end" : 251,
+    "inCoref" : true
+  }, {
+    "id" : "m8",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 272,
+    "end" : 280,
+    "inCoref" : false
+  }, {
+    "id" : "m29",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 277,
+    "end" : 280,
+    "inCoref" : false
+  }, {
+    "id" : "m9",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 318,
+    "end" : 323,
+    "inCoref" : true
+  }, {
+    "id" : "m10",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 361,
+    "end" : 366,
+    "inCoref" : true
+  }, {
+    "id" : "m11",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 418,
+    "end" : 421,
+    "inCoref" : false
+  }, {
+    "id" : "m12",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 459,
+    "end" : 461,
+    "inCoref" : true
+  }, {
+    "id" : "m30",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 489,
+    "end" : 493,
+    "inCoref" : false
+  }, {
+    "id" : "m13",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 509,
+    "end" : 514,
+    "inCoref" : true
+  }, {
+    "id" : "m14",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 544,
+    "end" : 546,
+    "inCoref" : true
+  }, {
+    "id" : "m15",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 627,
+    "end" : 632,
+    "inCoref" : true
+  }, {
+    "id" : "m16",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 666,
+    "end" : 669,
+    "inCoref" : false
+  }, {
+    "id" : "m31",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Model",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Model",
+    "begin" : 693,
+    "end" : 699,
+    "inCoref" : true
+  }, {
+    "id" : "m17",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 693,
+    "end" : 699,
+    "inCoref" : true
+  }, {
+    "id" : "m18",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 721,
+    "end" : 743,
+    "inCoref" : true
+  }, {
+    "id" : "m32",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Model",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Model",
+    "begin" : 721,
+    "end" : 727,
+    "inCoref" : true
+  }, {
+    "id" : "m33",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 737,
+    "end" : 743,
+    "inCoref" : false
+  }, {
+    "id" : "m19",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 762,
+    "end" : 765,
+    "inCoref" : false
+  }, {
+    "id" : "m20",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 815,
+    "end" : 820,
+    "inCoref" : true
+  }, {
+    "id" : "m21",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 856,
+    "end" : 861,
+    "inCoref" : true
+  }, {
+    "id" : "m22",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 897,
+    "end" : 903,
+    "inCoref" : true
+  }, {
+    "id" : "m23",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Part_Of_Mobile",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Part_Of_Mobile",
+    "begin" : 929,
+    "end" : 932,
+    "inCoref" : false
+  }, {
+    "id" : "m24",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 963,
+    "end" : 968,
+    "inCoref" : true
+  }, {
+    "id" : "m25",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "Manufacturer",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "Manufacturer",
+    "begin" : 1057,
+    "end" : 1061,
+    "inCoref" : true
+  } ],
+  "relations" : [ ],
+  "corefs" : [ {
+    "id" : "c1",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : { },
+    "mentions" : [ "m1", "m2", "m3", "m4", "m6", "m7", "m9", "m10", "m12", "m13", "m14", "m15", "m17", "m18", "m20", "m21", "m22", "m24", "m25" ]
+  }, {
+    "id" : "c4",
+    "originUser" : "anand.ba06@reva.edu.in",
+    "properties" : { },
+    "mentions" : [ "m27", "m28", "m32", "m31" ]
+  } ],
+  "typeResolved" : true,
+  "userResolved" : false
+}
